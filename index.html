@@ -1,0 +1,1118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head><meta charset="UTF-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<title>Projeto Gol</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="alternate" type="application/rss+xml" title="Feed para Projeto Gol »" href="https://projetogol.netlify.app/feed">
+<link rel="alternate" type="application/rss+xml" title="Feed de comentários para Projeto Gol »" href="https://projetogol.netlify.app/comments/feed">
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://projetogol.netlify.app/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fprojetogol.netlify.app%2F">
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://projetogol.netlify.app/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fprojetogol.netlify.app%2F&amp;format=xml">
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<link rel="stylesheet" id="wp-block-library-css" href="https://projetogol.netlify.app/wp-includes/css/dist/block-library/style.min.css?ver=6.9.1" media="all">
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:root { --wp--style--global--content-size: 800px;--wp--style--global--wide-size: 1200px; }:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.wp-site-blocks) > * { margin-block-start: 24px; margin-block-end: 0; }:where(.wp-site-blocks) > :first-child { margin-block-start: 0; }:where(.wp-site-blocks) > :last-child { margin-block-end: 0; }:root { --wp--style--block-gap: 24px; }:root :where(.is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.is-layout-flow) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.is-layout-constrained) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-flex){gap: 24px;}:root :where(.is-layout-grid){gap: 24px;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}a:where(:not(.wp-element-button)){text-decoration: underline;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+<link rel="stylesheet" id="hello-elementor-css" href="https://projetogol.netlify.app/wp-content/themes/hello-elementor/assets/css/reset.css?ver=3.4.6" media="all">
+<link rel="stylesheet" id="hello-elementor-theme-style-css" href="https://projetogol.netlify.app/wp-content/themes/hello-elementor/assets/css/theme.css?ver=3.4.6" media="all">
+<link rel="stylesheet" id="elementor-frontend-css" href="https://projetogol.netlify.app/wp-content/uploads/elementor/css/custom-frontend.min.css?ver=1773060937" media="all">
+<style id="elementor-frontend-inline-css">
+
+.elementor-kit-6{--e-global-color-primary:#6EC1E4;--e-global-color-secondary:#54595F;--e-global-color-text:#7A7A7A;--e-global-color-accent:#61CE70;--e-global-typography-primary-font-family:"Roboto";--e-global-typography-primary-font-weight:600;--e-global-typography-secondary-font-family:"Roboto Slab";--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-family:"Roboto";--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"Roboto";--e-global-typography-accent-font-weight:500;}.elementor-kit-6 e-page-transition{background-color:#FFBC7D;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1920px;}.e-con{--container-max-width:1920px;--container-default-padding-top:0%;--container-default-padding-right:0%;--container-default-padding-bottom:0%;--container-default-padding-left:0%;}.elementor-widget:not(:last-child){--kit-widget-spacing:0px;}.elementor-element{--widgets-spacing:0px 0px;--widgets-spacing-row:0px;--widgets-spacing-column:0px;}{}h1.entry-title{display:var(--page-title-display);}@media(max-width:1024px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}.e-con{--container-max-width:1024px;}}@media(max-width:767px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}.e-con{--container-max-width:767px;}}
+.elementor-18 .elementor-element.elementor-element-2065e87{--display:flex;--position:fixed;--flex-direction:row;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--justify-content:center;--align-items:center;--gap:0% 0%;--row-gap:0%;--column-gap:0%;--flex-wrap:nowrap;--overlay-opacity:1;--border-radius:0% 0% 0% 0%;--margin-top:4%;--margin-bottom:0%;--margin-left:0%;--margin-right:0%;--padding-top:0%;--padding-bottom:0%;--padding-left:38%;--padding-right:38%;top:0px;--z-index:5;}.elementor-18 .elementor-element.elementor-element-2065e87::before, .elementor-18 .elementor-element.elementor-element-2065e87 > .elementor-background-video-container::before, .elementor-18 .elementor-element.elementor-element-2065e87 > .e-con-inner > .elementor-background-video-container::before, .elementor-18 .elementor-element.elementor-element-2065e87 > .elementor-background-slideshow::before, .elementor-18 .elementor-element.elementor-element-2065e87 > .e-con-inner > .elementor-background-slideshow::before, .elementor-18 .elementor-element.elementor-element-2065e87 > .elementor-motion-effects-container > .elementor-motion-effects-layer::before{--background-overlay:'';}body:not(.rtl) .elementor-18 .elementor-element.elementor-element-2065e87{left:0px;}body.rtl .elementor-18 .elementor-element.elementor-element-2065e87{right:0px;}.elementor-18 .elementor-element.elementor-element-1643acd{--display:flex;--flex-direction:row;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--justify-content:flex-start;--align-items:center;--gap:0em 2em;--row-gap:0em;--column-gap:2em;--flex-wrap:nowrap;--overlay-opacity:1;--border-radius:2rem 2rem 2rem 2rem;--margin-top:0%;--margin-bottom:0%;--margin-left:0%;--margin-right:0%;--padding-top:014px;--padding-bottom:014px;--padding-left:024px;--padding-right:024px;}.elementor-18 .elementor-element.elementor-element-1643acd::before, .elementor-18 .elementor-element.elementor-element-1643acd > .elementor-background-video-container::before, .elementor-18 .elementor-element.elementor-element-1643acd > .e-con-inner > .elementor-background-video-container::before, .elementor-18 .elementor-element.elementor-element-1643acd > .elementor-background-slideshow::before, .elementor-18 .elementor-element.elementor-element-1643acd > .e-con-inner > .elementor-background-slideshow::before, .elementor-18 .elementor-element.elementor-element-1643acd > .elementor-motion-effects-container > .elementor-motion-effects-layer::before{background-color:#F3F0ED;--background-overlay:'';}.elementor-widget-image .widget-image-caption{color:var( --e-global-color-text );font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-18 .elementor-element.elementor-element-97210a6{margin:0% 0% calc(var(--kit-widget-spacing, 0px) + 0%) 0%;padding:0% 0% 0% 0%;}.elementor-18 .elementor-element.elementor-element-97210a6 img{width:3.5vw;max-width:48px;border-radius:0px 0px 0px 0px;}.elementor-widget-icon-list .elementor-icon-list-item:not(:last-child):after{border-color:var( --e-global-color-text );}.elementor-widget-icon-list .elementor-icon-list-icon i{color:var( --e-global-color-primary );}.elementor-widget-icon-list .elementor-icon-list-icon svg{fill:var( --e-global-color-primary );}.elementor-widget-icon-list .elementor-icon-list-item > .elementor-icon-list-text, .elementor-widget-icon-list .elementor-icon-list-item > a{font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-widget-icon-list .elementor-icon-list-text{color:var( --e-global-color-secondary );}.elementor-18 .elementor-element.elementor-element-f5c8e6f{margin:0% 0% calc(var(--kit-widget-spacing, 0px) + 0%) 0%;padding:0% 0% 0% 0%;--icon-vertical-offset:0px;}.elementor-18 .elementor-element.elementor-element-f5c8e6f.elementor-element{--align-self:center;}.elementor-18 .elementor-element.elementor-element-f5c8e6f .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child){padding-block-end:calc(1em/2);}.elementor-18 .elementor-element.elementor-element-f5c8e6f .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:first-child){margin-block-start:calc(1em/2);}.elementor-18 .elementor-element.elementor-element-f5c8e6f .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item{margin-inline:calc(1em/2);}.elementor-18 .elementor-element.elementor-element-f5c8e6f .elementor-icon-list-items.elementor-inline-items{margin-inline:calc(-1em/2);}.elementor-18 .elementor-element.elementor-element-f5c8e6f .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after{inset-inline-end:calc(-1em/2);}.elementor-18 .elementor-element.elementor-element-f5c8e6f .elementor-icon-list-icon i{transition:color 0.3s;}.elementor-18 .elementor-element.elementor-element-f5c8e6f .elementor-icon-list-icon svg{transition:fill 0.3s;}.elementor-18 .elementor-element.elementor-element-f5c8e6f .elementor-icon-list-item > .elementor-icon-list-text, .elementor-18 .elementor-element.elementor-element-f5c8e6f .elementor-icon-list-item > a{font-family:"Arial", Sans-serif;font-size:14px;font-weight:700;}.elementor-18 .elementor-element.elementor-element-f5c8e6f .elementor-icon-list-text{color:#1E1E1E;transition:color 0.3s;}.elementor-18 .elementor-element.elementor-element-f5c8e6f .elementor-icon-list-item:hover .elementor-icon-list-text{color:#FF7020;}.elementor-18 .elementor-element.elementor-element-7d1b911{--display:flex;--min-height:100vh;--flex-direction:row;--container-widget-width:initial;--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--gap:0px 0px;--row-gap:0px;--column-gap:0px;--overflow:hidden;--margin-top:0%;--margin-bottom:15%;--margin-left:0%;--margin-right:0%;--padding-top:0%;--padding-bottom:0%;--padding-left:5%;--padding-right:5%;}.elementor-18 .elementor-element.elementor-element-1f25ab4{--display:flex;--flex-direction:row;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--justify-content:flex-end;--align-items:center;--margin-top:0%;--margin-bottom:0%;--margin-left:0%;--margin-right:0%;--padding-top:0%;--padding-bottom:0%;--padding-left:0%;--padding-right:0%;}.elementor-18 .elementor-element.elementor-element-d3c7839{--display:flex;--position:absolute;--min-height:44vh;--justify-content:space-between;--align-items:center;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );bottom:0px;}body:not(.rtl) .elementor-18 .elementor-element.elementor-element-d3c7839{left:0px;}body.rtl .elementor-18 .elementor-element.elementor-element-d3c7839{right:0px;}.elementor-18 .elementor-element.elementor-element-9fffddd{--display:flex;--min-height:55vh;--flex-direction:column;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--justify-content:flex-start;--align-items:center;--border-radius:12px 12px 12px 12px;--margin-top:0%;--margin-bottom:0%;--margin-left:0%;--margin-right:0%;--padding-top:15%;--padding-bottom:15%;--padding-left:5%;--padding-right:5%;}.elementor-18 .elementor-element.elementor-element-9fffddd:not(.elementor-motion-effects-element-type-background), .elementor-18 .elementor-element.elementor-element-9fffddd > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#E7E7E7D9;}.elementor-18 .elementor-element.elementor-element-02f1339{--display:flex;--justify-content:center;--align-items:center;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--gap:0% 0%;--row-gap:0%;--column-gap:0%;--margin-top:0%;--margin-bottom:10%;--margin-left:0%;--margin-right:0%;--padding-top:0%;--padding-bottom:0%;--padding-left:0%;--padding-right:0%;}.elementor-18 .elementor-element.elementor-element-02f1339.e-con{--align-self:center;}.elementor-widget-heading .elementor-heading-title{font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );color:var( --e-global-color-primary );}.elementor-18 .elementor-element.elementor-element-f41cf2e{margin:0% 0% calc(var(--kit-widget-spacing, 0px) + 0%) 0%;padding:0% 0% 0% 0%;text-align:center;}.elementor-18 .elementor-element.elementor-element-f41cf2e.elementor-element{--align-self:center;}.elementor-18 .elementor-element.elementor-element-f41cf2e .elementor-heading-title{color:#333333;}.elementor-18 .elementor-element.elementor-element-4491a9a{margin:0% 0% calc(var(--kit-widget-spacing, 0px) + 0%) 0%;padding:0% 0% 0% 0%;text-align:center;}.elementor-18 .elementor-element.elementor-element-4491a9a.elementor-element{--align-self:center;}.elementor-18 .elementor-element.elementor-element-4491a9a .elementor-heading-title{color:#333333;}.elementor-18 .elementor-element.elementor-element-dd3fe3f{margin:0% 0% calc(var(--kit-widget-spacing, 0px) + 0%) 0%;padding:0% 0% 0% 0%;text-align:center;}.elementor-18 .elementor-element.elementor-element-dd3fe3f.elementor-element{--align-self:center;}.elementor-18 .elementor-element.elementor-element-dd3fe3f .elementor-heading-title{color:#333333;}.elementor-18 .elementor-element.elementor-element-cfa0d10{margin:0% 0% calc(var(--kit-widget-spacing, 0px) + 0%) 0%;padding:0% 0% 0% 0%;text-align:center;}.elementor-18 .elementor-element.elementor-element-cfa0d10.elementor-element{--align-self:center;}.elementor-18 .elementor-element.elementor-element-cfa0d10 .elementor-heading-title{color:#333333;}.elementor-18 .elementor-element.elementor-element-3a453f9{margin:0% 0% calc(var(--kit-widget-spacing, 0px) + 0%) 0%;padding:0% 0% 0% 0%;text-align:center;}.elementor-18 .elementor-element.elementor-element-3a453f9.elementor-element{--align-self:center;}.elementor-18 .elementor-element.elementor-element-3a453f9 .elementor-heading-title{color:#333333;}.elementor-18 .elementor-element.elementor-element-7e7294c{--display:flex;--justify-content:center;--align-items:center;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--gap:0% 0%;--row-gap:0%;--column-gap:0%;--margin-top:0%;--margin-bottom:15%;--margin-left:0%;--margin-right:0%;--padding-top:0%;--padding-bottom:0%;--padding-left:0%;--padding-right:0%;}.elementor-18 .elementor-element.elementor-element-7e7294c.e-con{--align-self:center;}.elementor-widget-text-editor{font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );color:var( --e-global-color-text );}.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:var( --e-global-color-primary );}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap, .elementor-widget-text-editor.elementor-drop-cap-view-default .elementor-drop-cap{color:var( --e-global-color-primary );border-color:var( --e-global-color-primary );}.elementor-18 .elementor-element.elementor-element-ac7aefd{margin:0% 0% calc(var(--kit-widget-spacing, 0px) + 0%) 0%;padding:0% 0% 0% 0%;text-align:center;color:#333333CC;}.elementor-18 .elementor-element.elementor-element-ac7aefd.elementor-element{--align-self:center;}.elementor-18 .elementor-element.elementor-element-f7d3678{margin:0% 0% calc(var(--kit-widget-spacing, 0px) + 0%) 0%;padding:0% 0% 0% 0%;text-align:center;color:#333333CC;}.elementor-18 .elementor-element.elementor-element-f7d3678.elementor-element{--align-self:center;}.elementor-18 .elementor-element.elementor-element-38f08c0{margin:0% 0% calc(var(--kit-widget-spacing, 0px) + 0%) 0%;padding:0% 0% 0% 0%;text-align:center;color:#333333CC;}.elementor-18 .elementor-element.elementor-element-38f08c0.elementor-element{--align-self:center;}.elementor-18 .elementor-element.elementor-element-84250f5{margin:0% 0% calc(var(--kit-widget-spacing, 0px) + 0%) 0%;padding:0% 0% 0% 0%;text-align:center;color:#333333CC;}.elementor-18 .elementor-element.elementor-element-84250f5.elementor-element{--align-self:center;}.elementor-18 .elementor-element.elementor-element-f42009e{margin:0% 0% calc(var(--kit-widget-spacing, 0px) + 0%) 0%;padding:0% 0% 0% 0%;text-align:center;color:#333333CC;}.elementor-18 .elementor-element.elementor-element-f42009e.elementor-element{--align-self:center;}.elementor-18 .elementor-element.elementor-element-d646a15{--display:flex;--flex-direction:column;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--justify-content:center;--align-items:center;}.elementor-widget-testimonial-carousel .elementor-testimonial__text{color:var( --e-global-color-text );font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-widget-testimonial-carousel .elementor-testimonial__name{color:var( --e-global-color-text );font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );}.elementor-widget-testimonial-carousel .elementor-testimonial__title{color:var( --e-global-color-primary );font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-weight:var( --e-global-typography-secondary-font-weight );}.elementor-18 .elementor-element.elementor-element-8728789.elementor-element{--align-self:center;}.elementor-18 .elementor-element.elementor-element-8728789 .elementor-swiper-button{font-size:20px;}.elementor-18 .elementor-element.elementor-element-8728789 .elementor-testimonial__name{color:#F5EDED;}.elementor-18 .elementor-element.elementor-element-8728789 .elementor-testimonial__title{color:#F5EDED;}.elementor-18 .elementor-element.elementor-element-cd0566f{--display:flex;--flex-direction:column;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--justify-content:center;--align-items:center;--gap:0px 0px;--row-gap:0px;--column-gap:0px;--margin-top:0%;--margin-bottom:0%;--margin-left:0%;--margin-right:0%;--padding-top:0%;--padding-bottom:0%;--padding-left:8%;--padding-right:8%;}.elementor-18 .elementor-element.elementor-element-1426f8f{--display:flex;--flex-direction:row;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--justify-content:center;--align-items:center;--gap:0% 2%;--row-gap:0%;--column-gap:2%;--margin-top:0%;--margin-bottom:2%;--margin-left:0%;--margin-right:0%;--padding-top:0%;--padding-bottom:0%;--padding-left:0%;--padding-right:0%;}.elementor-18 .elementor-element.elementor-element-e32f198{--display:flex;--margin-top:0%;--margin-bottom:0%;--margin-left:0%;--margin-right:0%;--padding-top:0%;--padding-bottom:0%;--padding-left:0%;--padding-right:0%;}.elementor-18 .elementor-element.elementor-element-9ee21de{margin:0% 0% calc(var(--kit-widget-spacing, 0px) + 0%) 0%;padding:0% 0% 0% 0%;}.elementor-18 .elementor-element.elementor-element-9ee21de img{border-radius:1rem 1rem 1rem 1rem;}.elementor-18 .elementor-element.elementor-element-3d2378f{--display:flex;--overlay-opacity:1;--border-radius:2rem 2rem 2rem 2rem;--margin-top:0%;--margin-bottom:0%;--margin-left:0%;--margin-right:0%;--padding-top:2%;--padding-bottom:2%;--padding-left:2%;--padding-right:2%;}.elementor-18 .elementor-element.elementor-element-3d2378f::before, .elementor-18 .elementor-element.elementor-element-3d2378f > .elementor-background-video-container::before, .elementor-18 .elementor-element.elementor-element-3d2378f > .e-con-inner > .elementor-background-video-container::before, .elementor-18 .elementor-element.elementor-element-3d2378f > .elementor-background-slideshow::before, .elementor-18 .elementor-element.elementor-element-3d2378f > .e-con-inner > .elementor-background-slideshow::before, .elementor-18 .elementor-element.elementor-element-3d2378f > .elementor-motion-effects-container > .elementor-motion-effects-layer::before{background-color:#F1F1F1;--background-overlay:'';}.elementor-18 .elementor-element.elementor-element-e0e8b3a{width:var( --container-widget-width, fit-content );max-width:fit-content;margin:0% 0% calc(var(--kit-widget-spacing, 0px) + 0%) 0%;padding:0% 0% 0% 0%;--container-widget-width:fit-content;--container-widget-flex-grow:0;}.elementor-18 .elementor-element.elementor-element-e0e8b3a .elementor-heading-title{font-family:"Montserrat", Sans-serif;font-size:2.3vw;font-weight:700;color:#FF7020B3;}.elementor-18 .elementor-element.elementor-element-dc15b87{margin:0% 0% calc(var(--kit-widget-spacing, 0px) + 0%) 0%;padding:0% 0% 0% 0%;font-family:"Montserrat", Sans-serif;font-weight:400;color:#000000B3;}.elementor-18 .elementor-element.elementor-element-bebd86e{--display:flex;--flex-direction:row;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--justify-content:center;--align-items:center;--gap:0% 2%;--row-gap:0%;--column-gap:2%;--margin-top:0%;--margin-bottom:2%;--margin-left:0%;--margin-right:0%;--padding-top:0%;--padding-bottom:0%;--padding-left:0%;--padding-right:0%;}.elementor-18 .elementor-element.elementor-element-2a892a6{--display:flex;--overlay-opacity:1;--border-radius:2rem 2rem 2rem 2rem;--margin-top:0%;--margin-bottom:0%;--margin-left:0%;--margin-right:0%;--padding-top:2%;--padding-bottom:2%;--padding-left:2%;--padding-right:2%;}.elementor-18 .elementor-element.elementor-element-2a892a6::before, .elementor-18 .elementor-element.elementor-element-2a892a6 > .elementor-background-video-container::before, .elementor-18 .elementor-element.elementor-element-2a892a6 > .e-con-inner > .elementor-background-video-container::before, .elementor-18 .elementor-element.elementor-element-2a892a6 > .elementor-background-slideshow::before, .elementor-18 .elementor-element.elementor-element-2a892a6 > .e-con-inner > .elementor-background-slideshow::before, .elementor-18 .elementor-element.elementor-element-2a892a6 > .elementor-motion-effects-container > .elementor-motion-effects-layer::before{background-color:#F1F1F1;--background-overlay:'';}.elementor-18 .elementor-element.elementor-element-80c0dd3{width:var( --container-widget-width, fit-content );max-width:fit-content;margin:0% 0% calc(var(--kit-widget-spacing, 0px) + 0%) 0%;padding:0% 0% 0% 0%;--container-widget-width:fit-content;--container-widget-flex-grow:0;}.elementor-18 .elementor-element.elementor-element-80c0dd3 .elementor-heading-title{font-family:"Montserrat", Sans-serif;font-size:2.3vw;font-weight:700;color:#FF7020B3;}.elementor-18 .elementor-element.elementor-element-32b2665{margin:0% 0% calc(var(--kit-widget-spacing, 0px) + 0%) 0%;padding:0% 0% 0% 0%;font-family:"Montserrat", Sans-serif;font-weight:400;color:#000000B3;}.elementor-18 .elementor-element.elementor-element-62d210c{--display:flex;--margin-top:0%;--margin-bottom:0%;--margin-left:0%;--margin-right:0%;--padding-top:0%;--padding-bottom:0%;--padding-left:0%;--padding-right:0%;}.elementor-18 .elementor-element.elementor-element-45b0c33{margin:0% 0% calc(var(--kit-widget-spacing, 0px) + 0%) 0%;padding:0% 0% 0% 0%;}.elementor-18 .elementor-element.elementor-element-45b0c33 img{border-radius:1rem 1rem 1rem 1rem;}.elementor-18 .elementor-element.elementor-element-ec8b825{--display:flex;--flex-direction:row;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--justify-content:center;--align-items:center;--gap:0% 2%;--row-gap:0%;--column-gap:2%;--margin-top:0%;--margin-bottom:2%;--margin-left:0%;--margin-right:0%;--padding-top:0%;--padding-bottom:0%;--padding-left:0%;--padding-right:0%;}.elementor-18 .elementor-element.elementor-element-1b96313{--display:flex;--margin-top:0%;--margin-bottom:0%;--margin-left:0%;--margin-right:0%;--padding-top:0%;--padding-bottom:0%;--padding-left:0%;--padding-right:0%;}.elementor-18 .elementor-element.elementor-element-7ba3d6e{margin:0% 0% calc(var(--kit-widget-spacing, 0px) + 0%) 0%;padding:0% 0% 0% 0%;}.elementor-18 .elementor-element.elementor-element-7ba3d6e img{border-radius:1rem 1rem 1rem 1rem;}.elementor-18 .elementor-element.elementor-element-55f9181{--display:flex;--overlay-opacity:1;--border-radius:2rem 2rem 2rem 2rem;--margin-top:0%;--margin-bottom:0%;--margin-left:0%;--margin-right:0%;--padding-top:2%;--padding-bottom:2%;--padding-left:2%;--padding-right:2%;}.elementor-18 .elementor-element.elementor-element-55f9181::before, .elementor-18 .elementor-element.elementor-element-55f9181 > .elementor-background-video-container::before, .elementor-18 .elementor-element.elementor-element-55f9181 > .e-con-inner > .elementor-background-video-container::before, .elementor-18 .elementor-element.elementor-element-55f9181 > .elementor-background-slideshow::before, .elementor-18 .elementor-element.elementor-element-55f9181 > .e-con-inner > .elementor-background-slideshow::before, .elementor-18 .elementor-element.elementor-element-55f9181 > .elementor-motion-effects-container > .elementor-motion-effects-layer::before{background-color:#F1F1F1;--background-overlay:'';}.elementor-18 .elementor-element.elementor-element-5e147b1{width:var( --container-widget-width, fit-content );max-width:fit-content;margin:0% 0% calc(var(--kit-widget-spacing, 0px) + 0%) 0%;padding:0% 0% 0% 0%;--container-widget-width:fit-content;--container-widget-flex-grow:0;}.elementor-18 .elementor-element.elementor-element-5e147b1 .elementor-heading-title{font-family:"Montserrat", Sans-serif;font-size:2.3vw;font-weight:700;color:#FF7020B3;}.elementor-18 .elementor-element.elementor-element-6bc40f3{margin:0% 0% calc(var(--kit-widget-spacing, 0px) + 0%) 0%;padding:0% 0% 0% 0%;font-family:"Montserrat", Sans-serif;font-weight:400;color:#000000B3;}.elementor-18 .elementor-element.elementor-element-a48d17b{--display:flex;--flex-direction:row;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--justify-content:center;--align-items:center;--gap:0% 2%;--row-gap:0%;--column-gap:2%;--margin-top:0%;--margin-bottom:2%;--margin-left:0%;--margin-right:0%;--padding-top:0%;--padding-bottom:0%;--padding-left:0%;--padding-right:0%;}.elementor-18 .elementor-element.elementor-element-7ab5af9{--display:flex;--overlay-opacity:1;--border-radius:2rem 2rem 2rem 2rem;--margin-top:0%;--margin-bottom:0%;--margin-left:0%;--margin-right:0%;--padding-top:2%;--padding-bottom:2%;--padding-left:2%;--padding-right:2%;}.elementor-18 .elementor-element.elementor-element-7ab5af9::before, .elementor-18 .elementor-element.elementor-element-7ab5af9 > .elementor-background-video-container::before, .elementor-18 .elementor-element.elementor-element-7ab5af9 > .e-con-inner > .elementor-background-video-container::before, .elementor-18 .elementor-element.elementor-element-7ab5af9 > .elementor-background-slideshow::before, .elementor-18 .elementor-element.elementor-element-7ab5af9 > .e-con-inner > .elementor-background-slideshow::before, .elementor-18 .elementor-element.elementor-element-7ab5af9 > .elementor-motion-effects-container > .elementor-motion-effects-layer::before{background-color:#F1F1F1;--background-overlay:'';}.elementor-18 .elementor-element.elementor-element-235a678{width:var( --container-widget-width, fit-content );max-width:fit-content;margin:0% 0% calc(var(--kit-widget-spacing, 0px) + 0%) 0%;padding:0% 0% 0% 0%;--container-widget-width:fit-content;--container-widget-flex-grow:0;}.elementor-18 .elementor-element.elementor-element-235a678 .elementor-heading-title{font-family:"Montserrat", Sans-serif;font-size:2.3vw;font-weight:700;color:#FF7020B3;}.elementor-18 .elementor-element.elementor-element-c73cd84{margin:0% 0% calc(var(--kit-widget-spacing, 0px) + 0%) 0%;padding:0% 0% 0% 0%;font-family:"Montserrat", Sans-serif;font-weight:400;color:#000000B3;}.elementor-18 .elementor-element.elementor-element-6817536{--display:flex;--margin-top:0%;--margin-bottom:0%;--margin-left:0%;--margin-right:0%;--padding-top:0%;--padding-bottom:0%;--padding-left:0%;--padding-right:0%;}.elementor-18 .elementor-element.elementor-element-7464bf5{margin:0% 0% calc(var(--kit-widget-spacing, 0px) + 0%) 0%;padding:0% 0% 0% 0%;}.elementor-18 .elementor-element.elementor-element-7464bf5 img{border-radius:1rem 1rem 1rem 1rem;}.elementor-18 .elementor-element.elementor-element-052cc51{--display:flex;--flex-direction:row;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--justify-content:center;--align-items:center;--gap:0% 2%;--row-gap:0%;--column-gap:2%;--margin-top:0%;--margin-bottom:2%;--margin-left:0%;--margin-right:0%;--padding-top:0%;--padding-bottom:0%;--padding-left:0%;--padding-right:0%;}.elementor-18 .elementor-element.elementor-element-e424d57{--display:flex;--margin-top:0%;--margin-bottom:0%;--margin-left:0%;--margin-right:0%;--padding-top:0%;--padding-bottom:0%;--padding-left:0%;--padding-right:0%;}.elementor-18 .elementor-element.elementor-element-1a77a17{margin:0% 0% calc(var(--kit-widget-spacing, 0px) + 0%) 0%;padding:0% 0% 0% 0%;}.elementor-18 .elementor-element.elementor-element-1a77a17 img{border-radius:1rem 1rem 1rem 1rem;}.elementor-18 .elementor-element.elementor-element-b65668f{--display:flex;--overlay-opacity:1;--border-radius:2rem 2rem 2rem 2rem;--margin-top:0%;--margin-bottom:0%;--margin-left:0%;--margin-right:0%;--padding-top:2%;--padding-bottom:2%;--padding-left:2%;--padding-right:2%;}.elementor-18 .elementor-element.elementor-element-b65668f::before, .elementor-18 .elementor-element.elementor-element-b65668f > .elementor-background-video-container::before, .elementor-18 .elementor-element.elementor-element-b65668f > .e-con-inner > .elementor-background-video-container::before, .elementor-18 .elementor-element.elementor-element-b65668f > .elementor-background-slideshow::before, .elementor-18 .elementor-element.elementor-element-b65668f > .e-con-inner > .elementor-background-slideshow::before, .elementor-18 .elementor-element.elementor-element-b65668f > .elementor-motion-effects-container > .elementor-motion-effects-layer::before{background-color:#F1F1F1;--background-overlay:'';}.elementor-18 .elementor-element.elementor-element-d3084e6{width:var( --container-widget-width, fit-content );max-width:fit-content;margin:0% 0% calc(var(--kit-widget-spacing, 0px) + 0%) 0%;padding:0% 0% 0% 0%;--container-widget-width:fit-content;--container-widget-flex-grow:0;}.elementor-18 .elementor-element.elementor-element-d3084e6 .elementor-heading-title{font-family:"Montserrat", Sans-serif;font-size:2.3vw;font-weight:700;color:#FF7020B3;}.elementor-18 .elementor-element.elementor-element-1f1b09e{margin:0% 0% calc(var(--kit-widget-spacing, 0px) + 0%) 0%;padding:0% 0% 0% 0%;font-family:"Montserrat", Sans-serif;font-weight:400;color:#000000B3;}.elementor-18 .elementor-element.elementor-element-d57b829{--display:flex;--flex-direction:row;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--justify-content:center;--align-items:center;--gap:0% 2%;--row-gap:0%;--column-gap:2%;--margin-top:0%;--margin-bottom:2%;--margin-left:0%;--margin-right:0%;--padding-top:0%;--padding-bottom:0%;--padding-left:0%;--padding-right:0%;}.elementor-18 .elementor-element.elementor-element-1dcdcaa{--display:flex;--overlay-opacity:1;--border-radius:2rem 2rem 2rem 2rem;--margin-top:0%;--margin-bottom:0%;--margin-left:0%;--margin-right:0%;--padding-top:2%;--padding-bottom:2%;--padding-left:2%;--padding-right:2%;}.elementor-18 .elementor-element.elementor-element-1dcdcaa::before, .elementor-18 .elementor-element.elementor-element-1dcdcaa > .elementor-background-video-container::before, .elementor-18 .elementor-element.elementor-element-1dcdcaa > .e-con-inner > .elementor-background-video-container::before, .elementor-18 .elementor-element.elementor-element-1dcdcaa > .elementor-background-slideshow::before, .elementor-18 .elementor-element.elementor-element-1dcdcaa > .e-con-inner > .elementor-background-slideshow::before, .elementor-18 .elementor-element.elementor-element-1dcdcaa > .elementor-motion-effects-container > .elementor-motion-effects-layer::before{background-color:#F1F1F1;--background-overlay:'';}.elementor-18 .elementor-element.elementor-element-b8ad4c9{width:var( --container-widget-width, fit-content );max-width:fit-content;margin:0% 0% calc(var(--kit-widget-spacing, 0px) + 0%) 0%;padding:0% 0% 0% 0%;--container-widget-width:fit-content;--container-widget-flex-grow:0;}.elementor-18 .elementor-element.elementor-element-b8ad4c9 .elementor-heading-title{font-family:"Montserrat", Sans-serif;font-size:2.3vw;font-weight:700;color:#FF7020B3;}.elementor-18 .elementor-element.elementor-element-25a15f0{margin:0% 0% calc(var(--kit-widget-spacing, 0px) + 0%) 0%;padding:0% 0% 0% 0%;font-family:"Montserrat", Sans-serif;font-weight:400;color:#000000B3;}.elementor-18 .elementor-element.elementor-element-9123462{--display:flex;--margin-top:0%;--margin-bottom:0%;--margin-left:0%;--margin-right:0%;--padding-top:0%;--padding-bottom:0%;--padding-left:0%;--padding-right:0%;}.elementor-18 .elementor-element.elementor-element-95a5682{margin:0% 0% calc(var(--kit-widget-spacing, 0px) + 0%) 0%;padding:0% 0% 0% 0%;}.elementor-18 .elementor-element.elementor-element-95a5682 img{border-radius:1rem 1rem 1rem 1rem;}.elementor-18 .elementor-element.elementor-element-902a94c{--display:flex;--flex-direction:row;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--justify-content:center;--align-items:center;--gap:0% 2%;--row-gap:0%;--column-gap:2%;--margin-top:0%;--margin-bottom:2%;--margin-left:0%;--margin-right:0%;--padding-top:0%;--padding-bottom:0%;--padding-left:0%;--padding-right:0%;}.elementor-18 .elementor-element.elementor-element-1eeedbb{--display:flex;--margin-top:0%;--margin-bottom:0%;--margin-left:0%;--margin-right:0%;--padding-top:0%;--padding-bottom:0%;--padding-left:0%;--padding-right:0%;}.elementor-18 .elementor-element.elementor-element-2bb4533{margin:0% 0% calc(var(--kit-widget-spacing, 0px) + 0%) 0%;padding:0% 0% 0% 0%;}.elementor-18 .elementor-element.elementor-element-2bb4533 img{border-radius:1rem 1rem 1rem 1rem;}.elementor-18 .elementor-element.elementor-element-755e02d{--display:flex;--overlay-opacity:1;--border-radius:2rem 2rem 2rem 2rem;--margin-top:0%;--margin-bottom:0%;--margin-left:0%;--margin-right:0%;--padding-top:2%;--padding-bottom:2%;--padding-left:2%;--padding-right:2%;}.elementor-18 .elementor-element.elementor-element-755e02d::before, .elementor-18 .elementor-element.elementor-element-755e02d > .elementor-background-video-container::before, .elementor-18 .elementor-element.elementor-element-755e02d > .e-con-inner > .elementor-background-video-container::before, .elementor-18 .elementor-element.elementor-element-755e02d > .elementor-background-slideshow::before, .elementor-18 .elementor-element.elementor-element-755e02d > .e-con-inner > .elementor-background-slideshow::before, .elementor-18 .elementor-element.elementor-element-755e02d > .elementor-motion-effects-container > .elementor-motion-effects-layer::before{background-color:#F1F1F1;--background-overlay:'';}.elementor-18 .elementor-element.elementor-element-c49da0e{width:var( --container-widget-width, fit-content );max-width:fit-content;margin:0% 0% calc(var(--kit-widget-spacing, 0px) + 0%) 0%;padding:0% 0% 0% 0%;--container-widget-width:fit-content;--container-widget-flex-grow:0;}.elementor-18 .elementor-element.elementor-element-c49da0e .elementor-heading-title{font-family:"Montserrat", Sans-serif;font-size:2.3vw;font-weight:700;color:#FF7020B3;}.elementor-18 .elementor-element.elementor-element-befd26d{margin:0% 0% calc(var(--kit-widget-spacing, 0px) + 0%) 0%;padding:0% 0% 0% 0%;font-family:"Montserrat", Sans-serif;font-weight:400;color:#000000B3;}.elementor-18 .elementor-element.elementor-element-064a189{--display:flex;--flex-direction:row;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--justify-content:center;--align-items:center;--gap:0% 2%;--row-gap:0%;--column-gap:2%;--margin-top:0%;--margin-bottom:2%;--margin-left:0%;--margin-right:0%;--padding-top:0%;--padding-bottom:0%;--padding-left:0%;--padding-right:0%;}.elementor-18 .elementor-element.elementor-element-8e13ab7{--display:flex;--overlay-opacity:1;--border-radius:2rem 2rem 2rem 2rem;--margin-top:0%;--margin-bottom:0%;--margin-left:0%;--margin-right:0%;--padding-top:2%;--padding-bottom:2%;--padding-left:2%;--padding-right:2%;}.elementor-18 .elementor-element.elementor-element-8e13ab7::before, .elementor-18 .elementor-element.elementor-element-8e13ab7 > .elementor-background-video-container::before, .elementor-18 .elementor-element.elementor-element-8e13ab7 > .e-con-inner > .elementor-background-video-container::before, .elementor-18 .elementor-element.elementor-element-8e13ab7 > .elementor-background-slideshow::before, .elementor-18 .elementor-element.elementor-element-8e13ab7 > .e-con-inner > .elementor-background-slideshow::before, .elementor-18 .elementor-element.elementor-element-8e13ab7 > .elementor-motion-effects-container > .elementor-motion-effects-layer::before{background-color:#F1F1F1;--background-overlay:'';}.elementor-18 .elementor-element.elementor-element-1731e4e{width:var( --container-widget-width, fit-content );max-width:fit-content;margin:0% 0% calc(var(--kit-widget-spacing, 0px) + 0%) 0%;padding:0% 0% 0% 0%;--container-widget-width:fit-content;--container-widget-flex-grow:0;}.elementor-18 .elementor-element.elementor-element-1731e4e .elementor-heading-title{font-family:"Montserrat", Sans-serif;font-size:2.3vw;font-weight:700;color:#FF7020B3;}.elementor-18 .elementor-element.elementor-element-3f80de5{margin:0% 0% calc(var(--kit-widget-spacing, 0px) + 0%) 0%;padding:0% 0% 0% 0%;font-family:"Montserrat", Sans-serif;font-weight:400;color:#000000B3;}.elementor-18 .elementor-element.elementor-element-bfa496c{--display:flex;--margin-top:0%;--margin-bottom:0%;--margin-left:0%;--margin-right:0%;--padding-top:0%;--padding-bottom:0%;--padding-left:0%;--padding-right:0%;}.elementor-18 .elementor-element.elementor-element-1d0d9dc{margin:0% 0% calc(var(--kit-widget-spacing, 0px) + 0%) 0%;padding:0% 0% 0% 0%;}.elementor-18 .elementor-element.elementor-element-1d0d9dc img{border-radius:1rem 1rem 1rem 1rem;}.elementor-18 .elementor-element.elementor-element-53ed133{--display:flex;--flex-direction:row;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--justify-content:center;--align-items:center;--gap:0% 2%;--row-gap:0%;--column-gap:2%;--margin-top:0%;--margin-bottom:2%;--margin-left:0%;--margin-right:0%;--padding-top:0%;--padding-bottom:0%;--padding-left:0%;--padding-right:0%;}.elementor-18 .elementor-element.elementor-element-92337eb{--display:flex;--margin-top:0%;--margin-bottom:0%;--margin-left:0%;--margin-right:0%;--padding-top:0%;--padding-bottom:0%;--padding-left:0%;--padding-right:0%;}.elementor-18 .elementor-element.elementor-element-166790b{margin:0% 0% calc(var(--kit-widget-spacing, 0px) + 0%) 0%;padding:0% 0% 0% 0%;}.elementor-18 .elementor-element.elementor-element-166790b img{border-radius:1rem 1rem 1rem 1rem;}.elementor-18 .elementor-element.elementor-element-d74bd1b{--display:flex;--overlay-opacity:1;--border-radius:2rem 2rem 2rem 2rem;--margin-top:0%;--margin-bottom:0%;--margin-left:0%;--margin-right:0%;--padding-top:2%;--padding-bottom:2%;--padding-left:2%;--padding-right:2%;}.elementor-18 .elementor-element.elementor-element-d74bd1b::before, .elementor-18 .elementor-element.elementor-element-d74bd1b > .elementor-background-video-container::before, .elementor-18 .elementor-element.elementor-element-d74bd1b > .e-con-inner > .elementor-background-video-container::before, .elementor-18 .elementor-element.elementor-element-d74bd1b > .elementor-background-slideshow::before, .elementor-18 .elementor-element.elementor-element-d74bd1b > .e-con-inner > .elementor-background-slideshow::before, .elementor-18 .elementor-element.elementor-element-d74bd1b > .elementor-motion-effects-container > .elementor-motion-effects-layer::before{background-color:#F1F1F1;--background-overlay:'';}.elementor-18 .elementor-element.elementor-element-263d3c9{width:var( --container-widget-width, fit-content );max-width:fit-content;margin:0% 0% calc(var(--kit-widget-spacing, 0px) + 0%) 0%;padding:0% 0% 0% 0%;--container-widget-width:fit-content;--container-widget-flex-grow:0;}.elementor-18 .elementor-element.elementor-element-263d3c9 .elementor-heading-title{font-family:"Montserrat", Sans-serif;font-size:2.3vw;font-weight:700;color:#FF7020B3;}.elementor-18 .elementor-element.elementor-element-babffcc{margin:0% 0% calc(var(--kit-widget-spacing, 0px) + 0%) 0%;padding:0% 0% 0% 0%;font-family:"Montserrat", Sans-serif;font-weight:400;color:#000000B3;}.elementor-18 .elementor-element.elementor-element-0ffe1ea{--display:flex;--min-height:600px;--flex-direction:row;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--justify-content:flex-start;--align-items:flex-start;--gap:0px 0px;--row-gap:0px;--column-gap:0px;--overlay-opacity:1;--margin-top:0%;--margin-bottom:0%;--margin-left:0%;--margin-right:0%;--padding-top:6%;--padding-bottom:0%;--padding-left:8%;--padding-right:8%;}.elementor-18 .elementor-element.elementor-element-0ffe1ea::before, .elementor-18 .elementor-element.elementor-element-0ffe1ea > .elementor-background-video-container::before, .elementor-18 .elementor-element.elementor-element-0ffe1ea > .e-con-inner > .elementor-background-video-container::before, .elementor-18 .elementor-element.elementor-element-0ffe1ea > .elementor-background-slideshow::before, .elementor-18 .elementor-element.elementor-element-0ffe1ea > .e-con-inner > .elementor-background-slideshow::before, .elementor-18 .elementor-element.elementor-element-0ffe1ea > .elementor-motion-effects-container > .elementor-motion-effects-layer::before{background-color:#F5F5F5;--background-overlay:'';}.elementor-18 .elementor-element.elementor-element-a245fce{--display:flex;--flex-direction:column;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--justify-content:center;--align-items:flex-start;--gap:2em 0em;--row-gap:2em;--column-gap:0em;--margin-top:0%;--margin-bottom:0%;--margin-left:0%;--margin-right:0%;--padding-top:0%;--padding-bottom:0%;--padding-left:0%;--padding-right:0%;}.elementor-18 .elementor-element.elementor-element-cb4d572 .elementor-heading-title{font-family:"Arial", Sans-serif;font-size:1.8vw;font-weight:700;color:#333333;}.elementor-18 .elementor-element.elementor-element-7284e69 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child){padding-block-end:calc(0.8em/2);}.elementor-18 .elementor-element.elementor-element-7284e69 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:first-child){margin-block-start:calc(0.8em/2);}.elementor-18 .elementor-element.elementor-element-7284e69 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item{margin-inline:calc(0.8em/2);}.elementor-18 .elementor-element.elementor-element-7284e69 .elementor-icon-list-items.elementor-inline-items{margin-inline:calc(-0.8em/2);}.elementor-18 .elementor-element.elementor-element-7284e69 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after{inset-inline-end:calc(-0.8em/2);}.elementor-18 .elementor-element.elementor-element-7284e69 .elementor-icon-list-icon i{transition:color 0.3s;}.elementor-18 .elementor-element.elementor-element-7284e69 .elementor-icon-list-icon svg{transition:fill 0.3s;}.elementor-18 .elementor-element.elementor-element-7284e69{--e-icon-list-icon-size:14px;--icon-vertical-offset:0px;}.elementor-18 .elementor-element.elementor-element-7284e69 .elementor-icon-list-item > .elementor-icon-list-text, .elementor-18 .elementor-element.elementor-element-7284e69 .elementor-icon-list-item > a{font-family:"Arial", Sans-serif;font-size:1vw;font-weight:400;}.elementor-18 .elementor-element.elementor-element-7284e69 .elementor-icon-list-text{transition:color 0.3s;}.elementor-18 .elementor-element.elementor-element-34a612e{--display:flex;--flex-direction:column;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--justify-content:center;--align-items:flex-start;--gap:2em 0em;--row-gap:2em;--column-gap:0em;--margin-top:0%;--margin-bottom:0%;--margin-left:0%;--margin-right:0%;--padding-top:0%;--padding-bottom:0%;--padding-left:0%;--padding-right:0%;}.elementor-18 .elementor-element.elementor-element-9cc2fc5 .elementor-heading-title{font-family:"Arial", Sans-serif;font-size:1.8vw;font-weight:700;color:#333333;}.elementor-18 .elementor-element.elementor-element-1db4751 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child){padding-block-end:calc(0.8em/2);}.elementor-18 .elementor-element.elementor-element-1db4751 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:first-child){margin-block-start:calc(0.8em/2);}.elementor-18 .elementor-element.elementor-element-1db4751 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item{margin-inline:calc(0.8em/2);}.elementor-18 .elementor-element.elementor-element-1db4751 .elementor-icon-list-items.elementor-inline-items{margin-inline:calc(-0.8em/2);}.elementor-18 .elementor-element.elementor-element-1db4751 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after{inset-inline-end:calc(-0.8em/2);}.elementor-18 .elementor-element.elementor-element-1db4751 .elementor-icon-list-icon i{transition:color 0.3s;}.elementor-18 .elementor-element.elementor-element-1db4751 .elementor-icon-list-icon svg{transition:fill 0.3s;}.elementor-18 .elementor-element.elementor-element-1db4751{--e-icon-list-icon-size:14px;--icon-vertical-offset:0px;}.elementor-18 .elementor-element.elementor-element-1db4751 .elementor-icon-list-item > .elementor-icon-list-text, .elementor-18 .elementor-element.elementor-element-1db4751 .elementor-icon-list-item > a{font-family:"Arial", Sans-serif;font-size:1vw;font-weight:400;}.elementor-18 .elementor-element.elementor-element-1db4751 .elementor-icon-list-text{transition:color 0.3s;}.elementor-18 .elementor-element.elementor-element-dbc2c01{--display:flex;--flex-direction:column;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--justify-content:center;--align-items:flex-start;--gap:2em 0em;--row-gap:2em;--column-gap:0em;--margin-top:0%;--margin-bottom:0%;--margin-left:0%;--margin-right:0%;--padding-top:0%;--padding-bottom:0%;--padding-left:0%;--padding-right:0%;}.elementor-18 .elementor-element.elementor-element-fbaa757 .elementor-heading-title{font-family:"Arial", Sans-serif;font-size:1.8vw;font-weight:700;color:#333333;}.elementor-18 .elementor-element.elementor-element-7a2a4d3 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child){padding-block-end:calc(0.8em/2);}.elementor-18 .elementor-element.elementor-element-7a2a4d3 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:first-child){margin-block-start:calc(0.8em/2);}.elementor-18 .elementor-element.elementor-element-7a2a4d3 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item{margin-inline:calc(0.8em/2);}.elementor-18 .elementor-element.elementor-element-7a2a4d3 .elementor-icon-list-items.elementor-inline-items{margin-inline:calc(-0.8em/2);}.elementor-18 .elementor-element.elementor-element-7a2a4d3 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after{inset-inline-end:calc(-0.8em/2);}.elementor-18 .elementor-element.elementor-element-7a2a4d3 .elementor-icon-list-icon i{transition:color 0.3s;}.elementor-18 .elementor-element.elementor-element-7a2a4d3 .elementor-icon-list-icon svg{transition:fill 0.3s;}.elementor-18 .elementor-element.elementor-element-7a2a4d3{--e-icon-list-icon-size:14px;--icon-vertical-offset:0px;}.elementor-18 .elementor-element.elementor-element-7a2a4d3 .elementor-icon-list-item > .elementor-icon-list-text, .elementor-18 .elementor-element.elementor-element-7a2a4d3 .elementor-icon-list-item > a{font-family:"Arial", Sans-serif;font-size:1vw;font-weight:400;}.elementor-18 .elementor-element.elementor-element-7a2a4d3 .elementor-icon-list-text{transition:color 0.3s;}.elementor-18 .elementor-element.elementor-element-a16eebd{--display:flex;--flex-direction:column;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--justify-content:center;--align-items:flex-start;--gap:1em 0em;--row-gap:1em;--column-gap:0em;--margin-top:0%;--margin-bottom:0%;--margin-left:18%;--margin-right:0%;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-18 .elementor-element.elementor-element-9feee46 .elementor-heading-title{font-family:"Arial", Sans-serif;font-size:1.8vw;font-weight:700;color:#333333;}.elementor-18 .elementor-element.elementor-element-a5d0b96{--display:flex;--flex-direction:row;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--justify-content:flex-start;--align-items:flex-end;--gap:0em 1em;--row-gap:0em;--column-gap:1em;--margin-top:0px;--margin-bottom:0px;--margin-left:0px;--margin-right:0px;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-18 .elementor-element.elementor-element-871724f{margin:0px 0px calc(var(--kit-widget-spacing, 0px) + 0px) 0px;padding:0px 0px 0px 0px;}.elementor-18 .elementor-element.elementor-element-871724f img{width:100%;border-radius:0px 0px 0px 0px;}.elementor-18 .elementor-element.elementor-element-3c1ec75{margin:0% 0% calc(var(--kit-widget-spacing, 0px) + 0%) 0%;padding:0% 0% 0% 0%;}.elementor-18 .elementor-element.elementor-element-3c1ec75 img{width:100%;border-radius:0px 0px 0px 0px;}.elementor-18 .elementor-element.elementor-element-2330538{margin:0px 0px calc(var(--kit-widget-spacing, 0px) + 0px) 0px;padding:0px 0px 0px 0px;}.elementor-18 .elementor-element.elementor-element-2330538 img{width:100%;border-radius:0px 0px 0px 0px;}.elementor-18 .elementor-element.elementor-element-6f99632 .elementor-heading-title{font-family:"Arial", Sans-serif;font-size:1.8vw;font-weight:700;color:#333333;}.elementor-18 .elementor-element.elementor-element-874f09b{--display:flex;--flex-direction:row;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--justify-content:flex-start;--align-items:center;--gap:0em 1em;--row-gap:0em;--column-gap:1em;--margin-top:0px;--margin-bottom:0px;--margin-left:0px;--margin-right:0px;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-18 .elementor-element.elementor-element-78d7c9e{margin:0px 0px calc(var(--kit-widget-spacing, 0px) + 0px) 0px;padding:0px 0px 0px 0px;}.elementor-18 .elementor-element.elementor-element-78d7c9e img{width:100%;border-radius:0px 0px 0px 0px;}.elementor-18 .elementor-element.elementor-element-bf2fca5{margin:0px 0px calc(var(--kit-widget-spacing, 0px) + 0px) 0px;padding:0px 0px 0px 0px;}.elementor-18 .elementor-element.elementor-element-bf2fca5 img{width:100%;border-radius:0px 0px 0px 0px;}.elementor-18 .elementor-element.elementor-element-64752d4 .elementor-heading-title{font-family:"Arial", Sans-serif;font-size:1.8vw;font-weight:700;color:#333333;}.elementor-18 .elementor-element.elementor-element-cbd8403 .elementor-repeater-item-f36e050.elementor-social-icon{background-color:#262626;}.elementor-18 .elementor-element.elementor-element-cbd8403 .elementor-repeater-item-f36e050.elementor-social-icon i{color:#FFFFFFCC;}.elementor-18 .elementor-element.elementor-element-cbd8403 .elementor-repeater-item-f36e050.elementor-social-icon svg{fill:#FFFFFFCC;}.elementor-18 .elementor-element.elementor-element-cbd8403 .elementor-repeater-item-7a3e57a.elementor-social-icon{background-color:#262626;}.elementor-18 .elementor-element.elementor-element-cbd8403 .elementor-repeater-item-7a3e57a.elementor-social-icon i{color:#FFFFFFCC;}.elementor-18 .elementor-element.elementor-element-cbd8403 .elementor-repeater-item-7a3e57a.elementor-social-icon svg{fill:#FFFFFFCC;}.elementor-18 .elementor-element.elementor-element-cbd8403{--grid-template-columns:repeat(0, auto);text-align:center;--icon-size:22px;--grid-column-gap:10px;--grid-row-gap:0px;}.elementor-18 .elementor-element.elementor-element-cbd8403 .elementor-social-icon{--icon-padding:6px;}.elementor-18 .elementor-element.elementor-element-6c5b467{margin:0px 0px calc(var(--kit-widget-spacing, 0px) + 0px) 0px;padding:0px 0px 0px 0px;bottom:-75%;}.elementor-18 .elementor-element.elementor-element-6c5b467 .elementor-heading-title{font-family:"Arial", Sans-serif;font-size:0.8vw;font-weight:600;color:#333333;}.elementor-18 .elementor-element.elementor-element-5251e0e{--display:flex;--flex-direction:row;--container-widget-width:initial;--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;}body.elementor-page-18{margin:0% 0% 0% 0%;padding:0% 0% 0% 0%;}@media(max-width:1366px){.elementor-18 .elementor-element.elementor-element-2065e87{--padding-top:0%;--padding-bottom:0%;--padding-left:35%;--padding-right:35%;}.elementor-18 .elementor-element.elementor-element-1643acd{--justify-content:flex-start;--padding-top:14px;--padding-bottom:14px;--padding-left:24px;--padding-right:24px;}.elementor-18 .elementor-element.elementor-element-9fffddd{--justify-content:flex-start;--align-items:center;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );}.elementor-18 .elementor-element.elementor-element-f41cf2e{margin:0% 0% calc(var(--kit-widget-spacing, 0px) + 0%) 6%;padding:0% 0% 0% 0%;}.elementor-18 .elementor-element.elementor-element-4491a9a{margin:0% 0% calc(var(--kit-widget-spacing, 0px) + 0%) 6%;padding:0% 0% 0% 0%;}.elementor-18 .elementor-element.elementor-element-dd3fe3f{margin:0% 0% calc(var(--kit-widget-spacing, 0px) + 0%) 6%;padding:0% 0% 0% 0%;}.elementor-18 .elementor-element.elementor-element-cfa0d10{margin:0% 0% calc(var(--kit-widget-spacing, 0px) + 0%) 6%;padding:0% 0% 0% 0%;}.elementor-18 .elementor-element.elementor-element-3a453f9{margin:0% 0% calc(var(--kit-widget-spacing, 0px) + 0%) 6%;padding:0% 0% 0% 0%;}.elementor-18 .elementor-element.elementor-element-ac7aefd{margin:0% 0% calc(var(--kit-widget-spacing, 0px) + 0%) 6%;padding:0% 0% 0% 0%;}.elementor-18 .elementor-element.elementor-element-f7d3678{margin:0% 0% calc(var(--kit-widget-spacing, 0px) + 0%) 6%;padding:0% 0% 0% 0%;}.elementor-18 .elementor-element.elementor-element-38f08c0{margin:0% 0% calc(var(--kit-widget-spacing, 0px) + 0%) 6%;padding:0% 0% 0% 0%;}.elementor-18 .elementor-element.elementor-element-84250f5{margin:0% 0% calc(var(--kit-widget-spacing, 0px) + 0%) 6%;padding:0% 0% 0% 0%;}.elementor-18 .elementor-element.elementor-element-f42009e{margin:0% 0% calc(var(--kit-widget-spacing, 0px) + 0%) 6%;padding:0% 0% 0% 0%;}.elementor-18 .elementor-element.elementor-element-0ffe1ea{--min-height:500px;}.elementor-18 .elementor-element.elementor-element-6c5b467{bottom:-65%;}}@media(max-width:1024px){.elementor-18 .elementor-element.elementor-element-2065e87{--padding-top:0%;--padding-bottom:0%;--padding-left:30%;--padding-right:30%;}.elementor-18 .elementor-element.elementor-element-9fffddd{--min-height:50vh;}.elementor-18 .elementor-element.elementor-element-0ffe1ea{--min-height:450px;}}@media(max-width:767px){.elementor-18 .elementor-element.elementor-element-2065e87{--margin-top:8%;--margin-bottom:0%;--margin-left:0%;--margin-right:0%;--padding-top:0%;--padding-bottom:0%;--padding-left:16%;--padding-right:16%;}.elementor-18 .elementor-element.elementor-element-1643acd{--width:fit-content;--justify-content:flex-start;--gap:0em 2em;--row-gap:0em;--column-gap:2em;--padding-top:5px;--padding-bottom:5px;--padding-left:8px;--padding-right:8px;}.elementor-18 .elementor-element.elementor-element-97210a6 img{width:35px;}.elementor-18 .elementor-element.elementor-element-f5c8e6f .elementor-icon-list-item > .elementor-icon-list-text, .elementor-18 .elementor-element.elementor-element-f5c8e6f .elementor-icon-list-item > a{font-size:11px;}.elementor-18 .elementor-element.elementor-element-7d1b911{--justify-content:center;--align-items:center;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );}.elementor-18 .elementor-element.elementor-element-1f25ab4{--margin-top:-300px;--margin-bottom:0px;--margin-left:0px;--margin-right:0px;}.elementor-18 .elementor-element.elementor-element-1f25ab4.e-con{--order:99999 /* order end hack */;}.elementor-18 .elementor-element.elementor-element-d3c7839{--min-height:0px;}.elementor-18 .elementor-element.elementor-element-d646a15{--margin-top:24%;--margin-bottom:0%;--margin-left:0%;--margin-right:0%;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-18 .elementor-element.elementor-element-1426f8f{--margin-top:0%;--margin-bottom:8%;--margin-left:0%;--margin-right:0%;--padding-top:0%;--padding-bottom:0%;--padding-left:0%;--padding-right:0%;}.elementor-18 .elementor-element.elementor-element-e32f198{--margin-top:0%;--margin-bottom:1%;--margin-left:0%;--margin-right:0%;--padding-top:0%;--padding-bottom:0%;--padding-left:0%;--padding-right:0%;}.elementor-18 .elementor-element.elementor-element-3d2378f{--justify-content:center;--align-items:center;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );}.elementor-18 .elementor-element.elementor-element-e0e8b3a .elementor-heading-title{font-size:3.5vw;}.elementor-18 .elementor-element.elementor-element-dc15b87{text-align:center;}.elementor-18 .elementor-element.elementor-element-bebd86e{--margin-top:0%;--margin-bottom:8%;--margin-left:0%;--margin-right:0%;--padding-top:0%;--padding-bottom:0%;--padding-left:0%;--padding-right:0%;}.elementor-18 .elementor-element.elementor-element-2a892a6{--justify-content:center;--align-items:center;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );}.elementor-18 .elementor-element.elementor-element-2a892a6.e-con{--order:99999 /* order end hack */;}.elementor-18 .elementor-element.elementor-element-80c0dd3 .elementor-heading-title{font-size:3.5vw;}.elementor-18 .elementor-element.elementor-element-32b2665{text-align:center;}.elementor-18 .elementor-element.elementor-element-62d210c{--margin-top:0%;--margin-bottom:1%;--margin-left:0%;--margin-right:0%;--padding-top:0%;--padding-bottom:0%;--padding-left:0%;--padding-right:0%;}.elementor-18 .elementor-element.elementor-element-ec8b825{--margin-top:0%;--margin-bottom:8%;--margin-left:0%;--margin-right:0%;--padding-top:0%;--padding-bottom:0%;--padding-left:0%;--padding-right:0%;}.elementor-18 .elementor-element.elementor-element-1b96313{--margin-top:0%;--margin-bottom:1%;--margin-left:0%;--margin-right:0%;--padding-top:0%;--padding-bottom:0%;--padding-left:0%;--padding-right:0%;}.elementor-18 .elementor-element.elementor-element-55f9181{--justify-content:center;--align-items:center;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );}.elementor-18 .elementor-element.elementor-element-5e147b1 .elementor-heading-title{font-size:3.5vw;}.elementor-18 .elementor-element.elementor-element-6bc40f3{text-align:center;}.elementor-18 .elementor-element.elementor-element-a48d17b{--margin-top:0%;--margin-bottom:8%;--margin-left:0%;--margin-right:0%;--padding-top:0%;--padding-bottom:0%;--padding-left:0%;--padding-right:0%;}.elementor-18 .elementor-element.elementor-element-7ab5af9{--justify-content:center;--align-items:center;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );}.elementor-18 .elementor-element.elementor-element-7ab5af9.e-con{--order:99999 /* order end hack */;}.elementor-18 .elementor-element.elementor-element-235a678 .elementor-heading-title{font-size:3.5vw;}.elementor-18 .elementor-element.elementor-element-c73cd84{text-align:center;}.elementor-18 .elementor-element.elementor-element-6817536{--margin-top:0%;--margin-bottom:1%;--margin-left:0%;--margin-right:0%;--padding-top:0%;--padding-bottom:0%;--padding-left:0%;--padding-right:0%;}.elementor-18 .elementor-element.elementor-element-052cc51{--margin-top:0%;--margin-bottom:8%;--margin-left:0%;--margin-right:0%;--padding-top:0%;--padding-bottom:0%;--padding-left:0%;--padding-right:0%;}.elementor-18 .elementor-element.elementor-element-e424d57{--margin-top:0%;--margin-bottom:1%;--margin-left:0%;--margin-right:0%;--padding-top:0%;--padding-bottom:0%;--padding-left:0%;--padding-right:0%;}.elementor-18 .elementor-element.elementor-element-b65668f{--justify-content:center;--align-items:center;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );}.elementor-18 .elementor-element.elementor-element-d3084e6 .elementor-heading-title{font-size:3.5vw;}.elementor-18 .elementor-element.elementor-element-1f1b09e{text-align:center;}.elementor-18 .elementor-element.elementor-element-d57b829{--margin-top:0%;--margin-bottom:8%;--margin-left:0%;--margin-right:0%;--padding-top:0%;--padding-bottom:0%;--padding-left:0%;--padding-right:0%;}.elementor-18 .elementor-element.elementor-element-1dcdcaa{--justify-content:center;--align-items:center;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );}.elementor-18 .elementor-element.elementor-element-1dcdcaa.e-con{--order:99999 /* order end hack */;}.elementor-18 .elementor-element.elementor-element-b8ad4c9 .elementor-heading-title{font-size:3.5vw;}.elementor-18 .elementor-element.elementor-element-25a15f0{text-align:center;}.elementor-18 .elementor-element.elementor-element-9123462{--margin-top:0%;--margin-bottom:1%;--margin-left:0%;--margin-right:0%;--padding-top:0%;--padding-bottom:0%;--padding-left:0%;--padding-right:0%;}.elementor-18 .elementor-element.elementor-element-902a94c{--margin-top:0%;--margin-bottom:8%;--margin-left:0%;--margin-right:0%;--padding-top:0%;--padding-bottom:0%;--padding-left:0%;--padding-right:0%;}.elementor-18 .elementor-element.elementor-element-1eeedbb{--margin-top:0%;--margin-bottom:1%;--margin-left:0%;--margin-right:0%;--padding-top:0%;--padding-bottom:0%;--padding-left:0%;--padding-right:0%;}.elementor-18 .elementor-element.elementor-element-755e02d{--justify-content:center;--align-items:center;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );}.elementor-18 .elementor-element.elementor-element-c49da0e .elementor-heading-title{font-size:3.5vw;}.elementor-18 .elementor-element.elementor-element-befd26d{text-align:center;}.elementor-18 .elementor-element.elementor-element-064a189{--margin-top:0%;--margin-bottom:8%;--margin-left:0%;--margin-right:0%;--padding-top:0%;--padding-bottom:0%;--padding-left:0%;--padding-right:0%;}.elementor-18 .elementor-element.elementor-element-8e13ab7{--justify-content:center;--align-items:center;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );}.elementor-18 .elementor-element.elementor-element-8e13ab7.e-con{--order:99999 /* order end hack */;}.elementor-18 .elementor-element.elementor-element-1731e4e .elementor-heading-title{font-size:3.5vw;}.elementor-18 .elementor-element.elementor-element-3f80de5{text-align:center;}.elementor-18 .elementor-element.elementor-element-bfa496c{--margin-top:0%;--margin-bottom:1%;--margin-left:0%;--margin-right:0%;--padding-top:0%;--padding-bottom:0%;--padding-left:0%;--padding-right:0%;}.elementor-18 .elementor-element.elementor-element-53ed133{--margin-top:0%;--margin-bottom:8%;--margin-left:0%;--margin-right:0%;--padding-top:0%;--padding-bottom:0%;--padding-left:0%;--padding-right:0%;}.elementor-18 .elementor-element.elementor-element-92337eb{--margin-top:0%;--margin-bottom:1%;--margin-left:0%;--margin-right:0%;--padding-top:0%;--padding-bottom:0%;--padding-left:0%;--padding-right:0%;}.elementor-18 .elementor-element.elementor-element-d74bd1b{--justify-content:center;--align-items:center;--container-widget-width:calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );}.elementor-18 .elementor-element.elementor-element-263d3c9 .elementor-heading-title{font-size:3.5vw;}.elementor-18 .elementor-element.elementor-element-babffcc{text-align:center;}.elementor-18 .elementor-element.elementor-element-0ffe1ea{--flex-direction:row;--container-widget-width:initial;--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--justify-content:center;--gap:0% 5%;--row-gap:0%;--column-gap:5%;}.elementor-18 .elementor-element.elementor-element-a245fce{--width:30%;--gap:1em 0em;--row-gap:1em;--column-gap:0em;}.elementor-18 .elementor-element.elementor-element-cb4d572 .elementor-heading-title{font-size:12px;}.elementor-18 .elementor-element.elementor-element-7284e69 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child){padding-block-end:calc(0.4em/2);}.elementor-18 .elementor-element.elementor-element-7284e69 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:first-child){margin-block-start:calc(0.4em/2);}.elementor-18 .elementor-element.elementor-element-7284e69 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item{margin-inline:calc(0.4em/2);}.elementor-18 .elementor-element.elementor-element-7284e69 .elementor-icon-list-items.elementor-inline-items{margin-inline:calc(-0.4em/2);}.elementor-18 .elementor-element.elementor-element-7284e69 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after{inset-inline-end:calc(-0.4em/2);}.elementor-18 .elementor-element.elementor-element-7284e69 .elementor-icon-list-item > .elementor-icon-list-text, .elementor-18 .elementor-element.elementor-element-7284e69 .elementor-icon-list-item > a{font-size:10px;}.elementor-18 .elementor-element.elementor-element-34a612e{--width:30%;--gap:1em 0em;--row-gap:1em;--column-gap:0em;}.elementor-18 .elementor-element.elementor-element-9cc2fc5 .elementor-heading-title{font-size:12px;}.elementor-18 .elementor-element.elementor-element-1db4751 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child){padding-block-end:calc(0.4em/2);}.elementor-18 .elementor-element.elementor-element-1db4751 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:first-child){margin-block-start:calc(0.4em/2);}.elementor-18 .elementor-element.elementor-element-1db4751 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item{margin-inline:calc(0.4em/2);}.elementor-18 .elementor-element.elementor-element-1db4751 .elementor-icon-list-items.elementor-inline-items{margin-inline:calc(-0.4em/2);}.elementor-18 .elementor-element.elementor-element-1db4751 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after{inset-inline-end:calc(-0.4em/2);}.elementor-18 .elementor-element.elementor-element-1db4751 .elementor-icon-list-item > .elementor-icon-list-text, .elementor-18 .elementor-element.elementor-element-1db4751 .elementor-icon-list-item > a{font-size:10px;}.elementor-18 .elementor-element.elementor-element-dbc2c01{--width:30%;--gap:1em 0em;--row-gap:1em;--column-gap:0em;}.elementor-18 .elementor-element.elementor-element-fbaa757 .elementor-heading-title{font-size:12px;}.elementor-18 .elementor-element.elementor-element-7a2a4d3 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child){padding-block-end:calc(0.4em/2);}.elementor-18 .elementor-element.elementor-element-7a2a4d3 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:first-child){margin-block-start:calc(0.4em/2);}.elementor-18 .elementor-element.elementor-element-7a2a4d3 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item{margin-inline:calc(0.4em/2);}.elementor-18 .elementor-element.elementor-element-7a2a4d3 .elementor-icon-list-items.elementor-inline-items{margin-inline:calc(-0.4em/2);}.elementor-18 .elementor-element.elementor-element-7a2a4d3 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after{inset-inline-end:calc(-0.4em/2);}.elementor-18 .elementor-element.elementor-element-7a2a4d3 .elementor-icon-list-item > .elementor-icon-list-text, .elementor-18 .elementor-element.elementor-element-7a2a4d3 .elementor-icon-list-item > a{font-size:10px;}.elementor-18 .elementor-element.elementor-element-a16eebd{--margin-top:0%;--margin-bottom:0%;--margin-left:0%;--margin-right:0%;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-18 .elementor-element.elementor-element-9feee46 .elementor-heading-title{font-size:12px;}.elementor-18 .elementor-element.elementor-element-6f99632 .elementor-heading-title{font-size:12px;}.elementor-18 .elementor-element.elementor-element-64752d4 .elementor-heading-title{font-size:12px;}body:not(.rtl) .elementor-18 .elementor-element.elementor-element-6c5b467{left:72%;}body.rtl .elementor-18 .elementor-element.elementor-element-6c5b467{right:72%;}.elementor-18 .elementor-element.elementor-element-6c5b467{bottom:0%;}.elementor-18 .elementor-element.elementor-element-6c5b467 .elementor-heading-title{font-size:8px;}}@media(min-width:768px){.elementor-18 .elementor-element.elementor-element-1643acd{--width:fit-content;}.elementor-18 .elementor-element.elementor-element-7d1b911{--width:100%;}.elementor-18 .elementor-element.elementor-element-1f25ab4{--width:100%;}.elementor-18 .elementor-element.elementor-element-d3c7839{--width:8%;}.elementor-18 .elementor-element.elementor-element-9fffddd{--width:50%;}.elementor-18 .elementor-element.elementor-element-02f1339{--width:100%;}.elementor-18 .elementor-element.elementor-element-7e7294c{--width:100%;}.elementor-18 .elementor-element.elementor-element-d646a15{--width:100%;}.elementor-18 .elementor-element.elementor-element-0ffe1ea{--content-width:100%;}.elementor-18 .elementor-element.elementor-element-a5d0b96{--width:fit-content;}.elementor-18 .elementor-element.elementor-element-874f09b{--width:fit-content;}}@media(max-width:1366px) and (min-width:768px){.elementor-18 .elementor-element.elementor-element-1643acd{--width:fit-content;}}/* Start custom CSS for container, class: .elementor-element-d3c7839 */.elementor-18 .elementor-element.elementor-element-d3c7839{
+    --dot-size: 20px;
+    --line-color: rgba(241, 90, 34, 0.8);
+    --dot-color: rgba(241, 90, 34, 1);
+    --dot-color-active: rgba(241, 90, 34, 1);
+    color: rgba(255,255,255,.8);
+    font-size: 13px;
+    font-weight: bold;
+}
+.elementor-18 .elementor-element.elementor-element-d3c7839{
+    height: 80vh;
+    height: var(--min-height);
+    max-height: 80vh;
+    min-height: 0 !important;
+}
+.elementor-18 .elementor-element.elementor-element-d3c7839 .dot{
+    height: var(--dot-size);
+    width: var(--dot-size);
+    background: var(--dot-color);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transform: scale(0.3);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.elementor-18 .elementor-element.elementor-element-d3c7839 .dot-number{
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+.elementor-18 .elementor-element.elementor-element-d3c7839 .dot.active{
+    transform: scale(1);
+    background: var(--dot-color-active);
+}
+.elementor-18 .elementor-element.elementor-element-d3c7839 .dot.active .dot-number{
+    opacity: 1;
+}
+.elementor-18 .elementor-element.elementor-element-d3c7839:before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    height: calc(100% - 20px);
+    max-height: 90vh;
+    width: 1px;
+    background: var(--line-color);
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+@media (max-width: 767px) {
+    .elementor-18 .elementor-element.elementor-element-d3c7839 {
+        height: auto !important; 
+        max-height: none;
+        width: 80% !important; 
+        margin-left: auto !important;
+        margin-right: auto !important;
+        
+        display: flex !important; 
+        flex-direction: row !important; 
+        justify-content: space-between !important; 
+        align-items: center !important; 
+        
+        transform: none !important; 
+        
+        margin-top: 0px; 
+        padding: 0 8px; 
+    }
+
+    .elementor-18 .elementor-element.elementor-element-d3c7839:before {
+        width: calc(100% - 30px); 
+        height: 1px; 
+    }
+}/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-02f1339 *//* Container que se ajusta à altura do texto ativo */
+.as-changing-widget {
+    position: relative;
+    transition: height 0.3s ease-in-out;
+    height: var(--h, auto); /* Altura dinâmica vinda do JS */
+    display: block;
+}
+
+/* Os Widgets (Títulos e Textos) ficam sobrepostos */
+.as-changing-widget .elementor-widget {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transform: translateY(20px); /* Posição inicial levemente descida */
+    transition: all 0.5s ease-in-out;
+    pointer-events: none;
+    z-index: 0;
+}
+
+/* Quando o JS ativa o item (Subindo ou Descendo) */
+.as-changing-widget .elementor-widget.currentUp,
+.as-changing-widget .elementor-widget.currentDown {
+    opacity: 1;
+    transform: translateY(0); /* Vai para o lugar certo */
+    z-index: 10;
+    pointer-events: all;
+}
+
+/* Opcional: animações diferentes para subir/descer se quiser */
+.as-changing-widget .elementor-widget.prev { transform: translateY(-20px); opacity: 0; }
+.as-changing-widget .elementor-widget.next { transform: translateY(20px); opacity: 0; }/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-7e7294c *//* Container que se ajusta à altura do texto ativo */
+.as-changing-widget {
+    position: relative;
+    transition: height 0.3s ease-in-out;
+    height: var(--h, auto); /* Altura dinâmica vinda do JS */
+    display: block;
+}
+
+/* Os Widgets (Títulos e Textos) ficam sobrepostos */
+.as-changing-widget .elementor-widget {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transform: translateY(20px); /* Posição inicial levemente descida */
+    transition: all 0.5s ease-in-out;
+    pointer-events: none;
+    z-index: 0;
+}
+
+/* Quando o JS ativa o item (Subindo ou Descendo) */
+.as-changing-widget .elementor-widget.currentUp,
+.as-changing-widget .elementor-widget.currentDown {
+    opacity: 1;
+    transform: translateY(0); /* Vai para o lugar certo */
+    z-index: 10;
+    pointer-events: all;
+}
+
+/* Opcional: animações diferentes para subir/descer se quiser */
+.as-changing-widget .elementor-widget.prev { transform: translateY(-20px); opacity: 0; }
+.as-changing-widget .elementor-widget.next { transform: translateY(20px); opacity: 0; }/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-9fffddd */@media (max-width: 1750px) and (min-width: 1381px){
+.elementor-18 .elementor-element.elementor-element-9fffddd{
+    padding-left: 8%;
+    padding-right: 12%;
+}
+}
+@media (max-width: 1380px) and (min-width: 768px){
+.elementor-18 .elementor-element.elementor-element-9fffddd{
+    padding-left: 0.5%;
+    padding-right: 5.5%;
+}
+}/* End custom CSS */
+/* Start custom CSS for testimonial-carousel, class: .elementor-element-8728789 */.elementor-18 .elementor-element.elementor-element-8728789{
+    --radius: 8px;
+    --height: 320px;
+    --active-height: 410px;
+    --overlay: 0.75;
+}
+.elementor-18 .elementor-element.elementor-element-8728789{
+    opacity: 0;
+    transform: translateX(100px);
+    transition: all 0.8s ease-in-out;
+}
+.elementor-18 .elementor-element.elementor-element-8728789.loaded{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.elementor-18 .elementor-element.elementor-element-8728789 .swiper-wrapper{
+    height: var(--active-height);
+    align-items: center;
+}
+.elementor-18 .elementor-element.elementor-element-8728789:not(.loaded) .swiper-wrapper{
+    transition-duration: 0s !important;
+}
+.elementor-18 .elementor-element.elementor-element-8728789 .swiper-slide{
+    display: flex;
+    align-items: flex-end;
+    border-radius: var(--radius);
+    height: var(--height);
+    box-shadow: 0 0 50px rgba(0,0,0,0.15);
+}
+.elementor-18 .elementor-element.elementor-element-8728789.loaded .swiper-slide{
+    transition: all 0.3s ease-in-out 0.2s;
+}
+.elementor-18 .elementor-element.elementor-element-8728789 .swiper-slide.swiper-slide-active{
+    height: var(--active-height);
+}
+.elementor-18 .elementor-element.elementor-element-8728789 .swiper-slide:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(0,0,0);
+    background: linear-gradient(20deg, rgba(0,0,0,var(--overlay)) 0%, rgba(0,0,0,0) 100%);
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    border-radius: var(--radius); /* Adicionado para a sombra não vazar */
+}
+.elementor-18 .elementor-element.elementor-element-8728789 .elementor-testimonial__footer{
+    display: block;
+}
+.elementor-18 .elementor-element.elementor-element-8728789 img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: var(--radius);
+    object-fit: cover; /* Garante que a foto não amasse */
+}
+.elementor-18 .elementor-element.elementor-element-8728789 .elementor-testimonial__cite{
+    z-index: 2;
+    position: relative;
+    padding: 15px; /* Evita que o texto cole na borda */
+}
+.elementor-18 .elementor-element.elementor-element-8728789 .elementor-testimonial__name{
+    margin-bottom: 5px;
+    color: #fff; /* Garante leitura sobre a imagem */
+}
+.elementor-18 .elementor-element.elementor-element-8728789 .swiper-pagination,
+.elementor-18 .elementor-element.elementor-element-8728789 .elementor-swiper-button{
+    display: none;
+}
+.elementor-18 .elementor-element.elementor-element-8728789 .swiper-container{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* --- AJUSTES PARA TABLET --- */
+@media (max-width: 1024px){
+    .elementor-18 .elementor-element.elementor-element-8728789{
+        --height: 180px;
+        --active-height: 250px;
+    }
+}
+
+/* --- AJUSTES PARA CELULAR --- */
+@media (max-width: 767px){
+    .elementor-18 .elementor-element.elementor-element-8728789{
+        --height: 160px; /* Altura da imagem normal */
+        --active-height: 200px; /* Altura da imagem do meio (destaque) */
+        /* Removi os widths que estavam quebrando o layout! */
+    }
+
+    .elementor-18 .elementor-element.elementor-element-8728789 .swiper-slide{
+        box-shadow: none;
+    }
+
+    /* As imagens e a película preta agora vão obedecer o espaço do Elementor */
+    .elementor-18 .elementor-element.elementor-element-8728789 img,
+    .elementor-18 .elementor-element.elementor-element-8728789 .swiper-slide:before {
+        width: 100% !important;
+        height: 100% !important;
+    }
+    
+.elementor-18 .elementor-element.elementor-element-8728789 .elementor-testimonial__cite{
+    padding: 0px;
+}
+}/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-7d1b911 */.elementor-18 .elementor-element.elementor-element-7d1b911 {
+    background: transparent; 
+    --background-speed: 1s;
+    position: relative;
+    isolation: isolate; 
+}
+
+
+.elementor-18 .elementor-element.elementor-element-7d1b911 .elementor-background-slideshow {
+    display: none !important;
+}
+
+.elementor-18 .elementor-element.elementor-element-7d1b911 .as-slider-background {
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    z-index: -1;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.elementor-18 .elementor-element.elementor-element-7d1b911 .as-slider-background img {
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transform: scale(1.1);
+    transition: transform 2s ease, opacity 1s ease;
+}
+
+.elementor-18 .elementor-element.elementor-element-7d1b911 .as-slider-background img.prev,
+.elementor-18 .elementor-element.elementor-element-7d1b911 .as-slider-background img.currentBackward,
+.elementor-18 .elementor-element.elementor-element-7d1b911 .as-slider-background img.currentForward {
+    opacity: 1;
+    z-index: 1;
+}
+
+.elementor-18 .elementor-element.elementor-element-7d1b911 .as-slider-background img.currentBackward,
+.elementor-18 .elementor-element.elementor-element-7d1b911 .as-slider-background img.currentForward {
+    z-index: 2;
+    transform: scale(1);
+    animation: bgFade var(--background-speed) linear;
+}
+
+.elementor-18 .elementor-element.elementor-element-7d1b911 .as-changing-widget {
+    z-index: 10;
+    position: relative;
+}
+
+.elementor-18 .elementor-element.elementor-element-7d1b911 .as-side-slider {
+    position: relative !important;
+    z-index: 20 !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+.elementor-18 .elementor-element.elementor-element-7d1b911 .e-con, 
+.elementor-18 .elementor-element.elementor-element-7d1b911 .elementor-widget-wrap {
+    z-index: 5;
+    position: relative;
+}
+
+.elementor-18 .elementor-element.elementor-element-7d1b911 .as-bar,
+.elementor-18 .elementor-element.elementor-element-7d1b911 .as-slider-left,
+.elementor-18 .elementor-element.elementor-element-7d1b911 .as-slider-right {
+    opacity: 0;
+    transition: all 0.8s ease-in-out;
+    position: relative;
+    z-index: 30;
+}
+
+.elementor-18 .elementor-element.elementor-element-7d1b911.loaded .as-bar,
+.elementor-18 .elementor-element.elementor-element-7d1b911.loaded .as-slider-left,
+.elementor-18 .elementor-element.elementor-element-7d1b911.loaded .as-slider-right {
+    opacity: 1;
+}
+
+
+@keyframes bgFade {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@media (max-width: 1367px) and (min-width: 768px){
+    .elementor-18 .elementor-element.elementor-element-7d1b911 { padding-left: 4%; padding-right: 4%; }
+}/* End custom CSS */
+/* Start custom CSS for container, class: .elementor-element-cd0566f */.elementor-18 .elementor-element.elementor-element-cd0566f p{
+    font-size: 1vw;
+}
+
+.elementor-18 .elementor-element.elementor-element-cd0566f h3{
+    font-size: 1.3vw;
+}
+
+@media (max-width: 767px) {
+    .elementor-18 .elementor-element.elementor-element-cd0566f {
+    p{
+        font-size: 1.8vw;
+    }
+    
+    h3{
+        font-size: 2vw;
+    }
+}/* End custom CSS */
+/* Start custom CSS for heading, class: .elementor-element-6c5b467 */.elementor-18 .elementor-element.elementor-element-6c5b467 .secoli:hover{
+    color: rgb(254, 125, 53);
+}/* End custom CSS */
+/*# sourceURL=elementor-frontend-inline-css */
+</style>
+<link rel="stylesheet" id="widget-image-css" href="https://projetogol.netlify.app/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=3.35.6" media="all">
+<link rel="stylesheet" id="widget-icon-list-css" href="https://projetogol.netlify.app/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css?ver=1773060937" media="all">
+<link rel="stylesheet" id="widget-heading-css" href="https://projetogol.netlify.app/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=3.35.6" media="all">
+<link rel="stylesheet" id="swiper-css" href="https://projetogol.netlify.app/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5" media="all">
+<link rel="stylesheet" id="e-swiper-css" href="https://projetogol.netlify.app/wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css?ver=3.35.6" media="all">
+<link rel="stylesheet" id="widget-testimonial-carousel-css" href="https://projetogol.netlify.app/wp-content/uploads/elementor/css/custom-pro-widget-testimonial-carousel.min.css?ver=3.35.0" media="all">
+<link rel="stylesheet" id="widget-carousel-module-base-css" href="https://projetogol.netlify.app/wp-content/plugins/pro-elements/assets/css/widget-carousel-module-base.min.css?ver=3.35.0" media="all">
+<link rel="stylesheet" id="widget-social-icons-css" href="https://projetogol.netlify.app/wp-content/plugins/elementor/assets/css/widget-social-icons.min.css?ver=3.35.6" media="all">
+<link rel="stylesheet" id="e-apple-webkit-css" href="https://projetogol.netlify.app/wp-content/uploads/elementor/css/custom-apple-webkit.min.css?ver=1773060937" media="all">
+<link rel="stylesheet" id="elementor-gf-roboto-css" href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&amp;display=swap" media="all">
+<link rel="stylesheet" id="elementor-gf-robotoslab-css" href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&amp;display=swap" media="all">
+<link rel="stylesheet" id="elementor-gf-montserrat-css" href="https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&amp;display=swap" media="all">
+<script src="https://projetogol.netlify.app/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script src="https://projetogol.netlify.app/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="https://projetogol.netlify.app/wp-json/"><link rel="alternate" title="JSON" type="application/json" href="https://projetogol.netlify.app/wp-json/wp/v2/pages/18"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://projetogol.netlify.app/xmlrpc.php?rsd">
+<meta name="generator" content="WordPress 6.9.1">
+<link rel="canonical" href="https://projetogol.netlify.app/">
+<link rel="shortlink" href="https://projetogol.netlify.app/">
+			<style>
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+			</style>
+			<link rel="icon" href="https://projetogol.netlify.app/wp-content/uploads/2026/03/Favicon.png" sizes="32x32">
+<link rel="icon" href="https://projetogol.netlify.app/wp-content/uploads/2026/03/Favicon.png" sizes="192x192">
+<link rel="apple-touch-icon" href="https://projetogol.netlify.app/wp-content/uploads/2026/03/Favicon.png">
+<meta name="msapplication-TileImage" content="https://projetogol.netlify.app/wp-content/uploads/2026/03/Favicon.png">
+</head>
+<body class="home wp-singular page-template page-template-elementor_header_footer page page-id-18 wp-embed-responsive wp-theme-hello-elementor hello-elementor-default elementor-default elementor-template-full-width elementor-kit-6 elementor-page elementor-page-18">
+
+
+<a class="skip-link screen-reader-text" href="#content">Ir para o conteúdo</a>
+
+		<div data-elementor-type="wp-page" data-elementor-id="18" class="elementor elementor-18" data-elementor-post-type="page">
+				<header class="elementor-element elementor-element-2065e87 e-con-full e-flex e-con e-child" data-id="2065e87" data-element_type="container" data-e-type="container" data-settings="{&quot;position&quot;:&quot;fixed&quot;}">
+		<header class="elementor-element elementor-element-1643acd e-con-full e-flex e-con e-child" data-id="1643acd" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-97210a6 elementor-widget elementor-widget-image" data-id="97210a6" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+																<a href="https://projetogol.netlify.app/">
+							<img decoding="async" width="50" height="20" src="https://projetogol.netlify.app/wp-content/uploads/2026/03/logo-voegol-new.svg" class="attachment-full size-full wp-image-74" alt="">								</a>
+															</div>
+				<div class="elementor-element elementor-element-f5c8e6f elementor-icon-list--layout-inline elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="f5c8e6f" data-element_type="widget" data-e-type="widget" data-widget_type="icon-list.default">
+							<ul class="elementor-icon-list-items elementor-inline-items">
+							<li class="elementor-icon-list-item elementor-inline-item">
+											<a href="#carrossel">
+
+											<span class="elementor-icon-list-text">Carrossel</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<a href="#galeria">
+
+											<span class="elementor-icon-list-text">Galeria</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<a href="#footer">
+
+											<span class="elementor-icon-list-text">Contato</span>
+											</a>
+									</li>
+						</ul>
+						</div>
+				</header>
+				</header>
+		<div class="elementor-element elementor-element-7d1b911 e-con-full as-slider e-flex e-con e-parent" data-id="7d1b911" data-element_type="container" data-e-type="container" id="carrossel" data-settings="{&quot;background_background&quot;:&quot;slideshow&quot;,&quot;background_slideshow_gallery&quot;:[{&quot;id&quot;:591,&quot;url&quot;:&quot;https:\/\/projetogol.netlify.app\/wp-content\/uploads\/2026\/03\/Lencois-Maranhenses.webp&quot;},{&quot;id&quot;:587,&quot;url&quot;:&quot;https:\/\/projetogol.netlify.app\/wp-content\/uploads\/2026\/03\/cataratas-do-iguacu.webp&quot;},{&quot;id&quot;:595,&quot;url&quot;:&quot;https:\/\/projetogol.netlify.app\/wp-content\/uploads\/2026\/03\/Chapada-dos-veadeiros.webp&quot;},{&quot;id&quot;:611,&quot;url&quot;:&quot;https:\/\/projetogol.netlify.app\/wp-content\/uploads\/2026\/03\/Pivo-de-irrigacao.webp&quot;},{&quot;id&quot;:615,&quot;url&quot;:&quot;https:\/\/projetogol.netlify.app\/wp-content\/uploads\/2026\/03\/Porto-de-Galinhas.webp&quot;}],&quot;background_slideshow_transition_duration&quot;:300,&quot;background_slideshow_slide_duration&quot;:5000,&quot;background_slideshow_slide_transition&quot;:&quot;fade&quot;}">
+		<div class="elementor-element elementor-element-1f25ab4 e-con-full e-flex e-con e-child" data-id="1f25ab4" data-element_type="container" data-e-type="container">
+		<div class="elementor-element elementor-element-d3c7839 e-con-full as-bar e-flex e-con e-child" data-id="d3c7839" data-element_type="container" data-e-type="container" data-settings="{&quot;position&quot;:&quot;absolute&quot;}">
+				</div>
+		<div class="elementor-element elementor-element-9fffddd e-con-full elementor-hidden-mobile e-flex e-con e-child" data-id="9fffddd" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+		<div class="elementor-element elementor-element-02f1339 as-changing-widget e-con-full e-flex e-con e-child" data-id="02f1339" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-f41cf2e elementor-widget elementor-widget-heading" data-id="f41cf2e" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+					<h1 class="elementor-heading-title elementor-size-default">Lençóis Maranhenses</h1>				</div>
+				<div class="elementor-element elementor-element-4491a9a elementor-widget elementor-widget-heading" data-id="4491a9a" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+					<h1 class="elementor-heading-title elementor-size-default">Cataratas do Iguaçu</h1>				</div>
+				<div class="elementor-element elementor-element-dd3fe3f elementor-widget elementor-widget-heading" data-id="dd3fe3f" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+					<h1 class="elementor-heading-title elementor-size-default">Chapada dos Veadeiros</h1>				</div>
+				<div class="elementor-element elementor-element-cfa0d10 elementor-widget elementor-widget-heading" data-id="cfa0d10" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+					<h1 class="elementor-heading-title elementor-size-default">Luís Eduardo Magalhães</h1>				</div>
+				<div class="elementor-element elementor-element-3a453f9 elementor-widget elementor-widget-heading" data-id="3a453f9" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+					<h1 class="elementor-heading-title elementor-size-default">Porto de Galinhas</h1>				</div>
+				</div>
+		<div class="elementor-element elementor-element-7e7294c e-con-full as-changing-widget e-flex e-con e-child" data-id="7e7294c" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-ac7aefd elementor-widget elementor-widget-text-editor" data-id="ac7aefd" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+									<h3>Um Deserto que Vira Mar</h3>								</div>
+				<div class="elementor-element elementor-element-f7d3678 elementor-widget elementor-widget-text-editor" data-id="f7d3678" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+									<h3>A maior orquestra de águas do mundo</h3>								</div>
+				<div class="elementor-element elementor-element-38f08c0 elementor-widget elementor-widget-text-editor" data-id="38f08c0" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+									<h3>Um oásis suspenso no cerrado</h3>								</div>
+				<div class="elementor-element elementor-element-84250f5 elementor-widget elementor-widget-text-editor" data-id="84250f5" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+									<h3>A geometria da vida no campo</h3>								</div>
+				<div class="elementor-element elementor-element-f42009e elementor-widget elementor-widget-text-editor" data-id="f42009e" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+									<h3>Onde os recifes abraçam o oceano</h3>								</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-d646a15 e-con-full e-flex e-con e-child" data-id="d646a15" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-8728789 as-side-slider elementor-testimonial--skin-default elementor-testimonial--layout-image_inline elementor-arrows-yes elementor-pagination-type-bullets elementor-widget elementor-widget-testimonial-carousel" data-id="8728789" data-element_type="widget" data-e-type="widget" data-settings="{&quot;slides_per_view&quot;:&quot;3&quot;,&quot;slides_per_view_laptop&quot;:&quot;2&quot;,&quot;slides_per_view_tablet&quot;:&quot;2&quot;,&quot;slides_per_view_mobile&quot;:&quot;2&quot;,&quot;show_arrows&quot;:&quot;yes&quot;,&quot;pagination&quot;:&quot;bullets&quot;,&quot;speed&quot;:500,&quot;loop&quot;:&quot;yes&quot;,&quot;space_between&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;space_between_laptop&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;space_between_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;space_between_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]}}" data-widget_type="testimonial-carousel.default">
+										<div class="elementor-main-swiper swiper" role="region" aria-roledescription="carousel" aria-label="Slides">
+				<div class="swiper-wrapper">
+											<div class="swiper-slide" role="group" aria-roledescription="slide">
+									<div class="elementor-testimonial">
+						<div class="elementor-testimonial__footer">
+									<div class="elementor-testimonial__image">
+						<img decoding="async" src="https://projetogol.netlify.app/wp-content/uploads/Lencois.webp" alt="Lençóis Maranhenses Necessaire">
+											</div>
+								<cite class="elementor-testimonial__cite"><span class="elementor-testimonial__name">Lençóis</span><span class="elementor-testimonial__title">Barreirinhas</span></cite>			</div>
+		</div>
+								</div>
+											<div class="swiper-slide" role="group" aria-roledescription="slide">
+									<div class="elementor-testimonial">
+						<div class="elementor-testimonial__footer">
+									<div class="elementor-testimonial__image">
+						<img decoding="async" src="https://projetogol.netlify.app/wp-content/uploads/cataratas-do-iguacu.webp" alt="cataratas do iguaçu Necessaires">
+											</div>
+								<cite class="elementor-testimonial__cite"><span class="elementor-testimonial__name">Cataratas</span><span class="elementor-testimonial__title">Foz do Iguaçu</span></cite>			</div>
+		</div>
+								</div>
+											<div class="swiper-slide" role="group" aria-roledescription="slide">
+									<div class="elementor-testimonial">
+						<div class="elementor-testimonial__footer">
+									<div class="elementor-testimonial__image">
+						<img decoding="async" src="https://projetogol.netlify.app/wp-content/uploads/Chapada-dos-veadeiros.webp" alt="Chapada dos veadeiros Necessaires">
+											</div>
+								<cite class="elementor-testimonial__cite"><span class="elementor-testimonial__name">Veadeiros</span><span class="elementor-testimonial__title">Alto Paraíso de Goiás</span></cite>			</div>
+		</div>
+								</div>
+											<div class="swiper-slide" role="group" aria-roledescription="slide">
+									<div class="elementor-testimonial">
+						<div class="elementor-testimonial__footer">
+									<div class="elementor-testimonial__image">
+						<img decoding="async" src="https://projetogol.netlify.app/wp-content/uploads/Pivos.webp" alt="Pivôs Necessaires">
+											</div>
+								<cite class="elementor-testimonial__cite"><span class="elementor-testimonial__name">Pivôs</span><span class="elementor-testimonial__title">Luís Eduardo Magalhães.</span></cite>			</div>
+		</div>
+								</div>
+											<div class="swiper-slide" role="group" aria-roledescription="slide">
+									<div class="elementor-testimonial">
+						<div class="elementor-testimonial__footer">
+									<div class="elementor-testimonial__image">
+						<img decoding="async" src="https://projetogol.netlify.app/wp-content/uploads/RECIFES.webp" alt="RECIFES Necessaires">
+											</div>
+								<cite class="elementor-testimonial__cite"><span class="elementor-testimonial__name">Recifes</span><span class="elementor-testimonial__title">Porto de Galinhas</span></cite>			</div>
+		</div>
+								</div>
+									</div>
+															<div class="elementor-swiper-button elementor-swiper-button-prev" role="button" tabindex="0" aria-label="Previous">
+							<svg aria-hidden="true" class="e-font-icon-svg e-eicon-chevron-left" viewbox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M646 125C629 125 613 133 604 142L308 442C296 454 292 471 292 487 292 504 296 521 308 533L604 854C617 867 629 875 646 875 663 875 679 871 692 858 704 846 713 829 713 812 713 796 708 779 692 767L438 487 692 225C700 217 708 204 708 187 708 171 704 154 692 142 675 129 663 125 646 125Z"></path></svg>						</div>
+						<div class="elementor-swiper-button elementor-swiper-button-next" role="button" tabindex="0" aria-label="Next">
+							<svg aria-hidden="true" class="e-font-icon-svg e-eicon-chevron-right" viewbox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M696 533C708 521 713 504 713 487 713 471 708 454 696 446L400 146C388 133 375 125 354 125 338 125 325 129 313 142 300 154 292 171 292 187 292 204 296 221 308 233L563 492 304 771C292 783 288 800 288 817 288 833 296 850 308 863 321 871 338 875 354 875 371 875 388 867 400 854L696 533Z"></path></svg>						</div>
+																<div class="swiper-pagination"></div>
+												</div>
+								</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-cd0566f e-flex e-con-boxed e-con e-parent" data-id="cd0566f" data-element_type="container" data-e-type="container" id="galeria">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-1426f8f e-con-full e-flex e-con e-child" data-id="1426f8f" data-element_type="container" data-e-type="container">
+		<div class="elementor-element elementor-element-e32f198 e-con-full e-flex e-con e-child" data-id="e32f198" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-9ee21de elementor-widget elementor-widget-image" data-id="9ee21de" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+															<img fetchpriority="high" decoding="async" width="1408" height="768" src="https://projetogol.netlify.app/wp-content/uploads/Lencois.webp" class="attachment-full size-full wp-image-720" alt="Lençóis Maranhenses Necessaire" srcset="https://projetogol.netlify.app/wp-content/uploads/Lencois.webp 1408w, https://projetogol.netlify.app/wp-content/uploads/Lencois-768x419.webp 768w" sizes="(max-width: 1408px) 100vw, 1408px">															</div>
+				</div>
+		<div class="elementor-element elementor-element-3d2378f e-con-full e-flex e-con e-child" data-id="3d2378f" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+				<div class="elementor-element elementor-element-e0e8b3a elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="e0e8b3a" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+					<h1 class="elementor-heading-title elementor-size-default">Lençóis Maranhenses</h1>				</div>
+				<div class="elementor-element elementor-element-dc15b87 elementor-widget elementor-widget-text-editor" data-id="dc15b87" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+									<h3>Um Deserto que Vira Mar</h3><p data-prosemirror-content-type="node" data-prosemirror-node-name="paragraph" data-prosemirror-node-block="true" data-pm-slice="1 1 []">Os Lençóis Maranhenses, no Maranhão. À primeira vista, parecem dunas infinitas. Mas, quando chegam as chuvas, o vento molda a areia e surgem lagoas de água doce entre as dunas, formando um mosaico que muda de lugar, de cor e de tamanho ao longo do ano.</p>								</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-bebd86e e-con-full e-flex e-con e-child" data-id="bebd86e" data-element_type="container" data-e-type="container">
+		<div class="elementor-element elementor-element-2a892a6 e-con-full e-flex e-con e-child" data-id="2a892a6" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+				<div class="elementor-element elementor-element-80c0dd3 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="80c0dd3" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+					<h1 class="elementor-heading-title elementor-size-default">Cataratas do Iguaçu</h1>				</div>
+				<div class="elementor-element elementor-element-32b2665 elementor-widget elementor-widget-text-editor" data-id="32b2665" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+									<h3>A maior orquestra de águas do mundo</h3><p data-prosemirror-content-type="node" data-prosemirror-node-name="paragraph" data-prosemirror-node-block="true" data-pm-slice="1 1 []">As Cataratas do Iguaçu, no Paraná. De longe, o que anuncia a sua presença é a névoa branca e o som inconfundível que ecoa pela floresta. Mas, quando chegamos perto, somos engolidos por um espetáculo vivo: centenas de quedas d’água despencam em sincronia pelos paredões de pedra, criando uma energia contagiante e pintando o ar com arco-íris que parecem nunca desaparecer.</p>								</div>
+				</div>
+		<div class="elementor-element elementor-element-62d210c e-con-full e-flex e-con e-child" data-id="62d210c" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-45b0c33 elementor-widget elementor-widget-image" data-id="45b0c33" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+															<img decoding="async" width="1408" height="768" src="https://projetogol.netlify.app/wp-content/uploads/cataratas-do-iguacu.webp" class="attachment-full size-full wp-image-716" alt="cataratas do iguaçu Necessaires" srcset="https://projetogol.netlify.app/wp-content/uploads/cataratas-do-iguacu.webp 1408w, https://projetogol.netlify.app/wp-content/uploads/cataratas-do-iguacu-768x419.webp 768w" sizes="(max-width: 1408px) 100vw, 1408px">															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-ec8b825 e-con-full e-flex e-con e-child" data-id="ec8b825" data-element_type="container" data-e-type="container">
+		<div class="elementor-element elementor-element-1b96313 e-con-full e-flex e-con e-child" data-id="1b96313" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-7ba3d6e elementor-widget elementor-widget-image" data-id="7ba3d6e" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+															<img loading="lazy" decoding="async" width="1408" height="768" src="https://projetogol.netlify.app/wp-content/uploads/Chapada-dos-veadeiros.webp" class="attachment-full size-full wp-image-717" alt="Chapada dos veadeiros Necessaires" srcset="https://projetogol.netlify.app/wp-content/uploads/Chapada-dos-veadeiros.webp 1408w, https://projetogol.netlify.app/wp-content/uploads/Chapada-dos-veadeiros-768x419.webp 768w" sizes="(max-width: 1408px) 100vw, 1408px">															</div>
+				</div>
+		<div class="elementor-element elementor-element-55f9181 e-con-full e-flex e-con e-child" data-id="55f9181" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+				<div class="elementor-element elementor-element-5e147b1 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="5e147b1" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+					<h1 class="elementor-heading-title elementor-size-default">Chapada dos Veadeiros</h1>				</div>
+				<div class="elementor-element elementor-element-6bc40f3 elementor-widget elementor-widget-text-editor" data-id="6bc40f3" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+									<h3>Um oásis suspenso no cerrado</h3><p data-prosemirror-content-type="node" data-prosemirror-node-name="paragraph" data-prosemirror-node-block="true" data-pm-slice="1 1 []">A Chapada dos Veadeiros, em Goiás. De longe, os grandes paredões de pedra parecem guardar os segredos de um tempo antigo. Mas, quando adentramos esse platô, somos surpreendidos por um refúgio de águas transparentes, campos repletos de flores silvestres e um horizonte onde o pôr do sol pinta o céu com cores que não existem em nenhum outro lugar.</p>								</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-a48d17b e-con-full e-flex e-con e-child" data-id="a48d17b" data-element_type="container" data-e-type="container">
+		<div class="elementor-element elementor-element-7ab5af9 e-con-full e-flex e-con e-child" data-id="7ab5af9" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+				<div class="elementor-element elementor-element-235a678 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="235a678" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+					<h1 class="elementor-heading-title elementor-size-default">Porto de Galinhas</h1>				</div>
+				<div class="elementor-element elementor-element-c73cd84 elementor-widget elementor-widget-text-editor" data-id="c73cd84" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+									<h3>Onde os recifes abraçam o oceano</h3><p data-prosemirror-content-type="node" data-prosemirror-node-name="paragraph" data-prosemirror-node-block="true" data-pm-slice="1 1 []">A costa de Porto de Galinhas, em Pernambuco. Quando o mar está alto, as ondas dançam livremente pela imensidão nordestina. Mas, assim que a água recua, a grandiosidade dos recifes brasileiros se mostra, esculpindo fendas e piscinas naturais que transformam a praia em um verdadeiro refúgio de tranquilidade.</p>								</div>
+				</div>
+		<div class="elementor-element elementor-element-6817536 e-con-full e-flex e-con e-child" data-id="6817536" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-7464bf5 elementor-widget elementor-widget-image" data-id="7464bf5" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+															<img loading="lazy" decoding="async" width="1408" height="768" src="https://projetogol.netlify.app/wp-content/uploads/RECIFES.webp" class="attachment-full size-full wp-image-722" alt="RECIFES Necessaires" srcset="https://projetogol.netlify.app/wp-content/uploads/RECIFES.webp 1408w, https://projetogol.netlify.app/wp-content/uploads/RECIFES-768x419.webp 768w" sizes="(max-width: 1408px) 100vw, 1408px">															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-052cc51 e-con-full e-flex e-con e-child" data-id="052cc51" data-element_type="container" data-e-type="container">
+		<div class="elementor-element elementor-element-e424d57 e-con-full e-flex e-con e-child" data-id="e424d57" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-1a77a17 elementor-widget elementor-widget-image" data-id="1a77a17" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+															<img loading="lazy" decoding="async" width="1408" height="768" src="https://projetogol.netlify.app/wp-content/uploads/Pivos.webp" class="attachment-full size-full wp-image-721" alt="Pivôs Necessaires" srcset="https://projetogol.netlify.app/wp-content/uploads/Pivos.webp 1408w, https://projetogol.netlify.app/wp-content/uploads/Pivos-768x419.webp 768w" sizes="(max-width: 1408px) 100vw, 1408px">															</div>
+				</div>
+		<div class="elementor-element elementor-element-b65668f e-con-full e-flex e-con e-child" data-id="b65668f" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+				<div class="elementor-element elementor-element-d3084e6 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="d3084e6" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+					<h1 class="elementor-heading-title elementor-size-default">Luís Eduardo Magalhães</h1>				</div>
+				<div class="elementor-element elementor-element-1f1b09e elementor-widget elementor-widget-text-editor" data-id="1f1b09e" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+									<h3>A geometria da vida no campo</h3><p data-prosemirror-content-type="node" data-prosemirror-node-name="paragraph" data-prosemirror-node-block="true" data-pm-slice="1 1 []">Luís Eduardo Magalhães, na Bahia. No horizonte, a paisagem plana ganha contornos que parecem uma imensa obra de arte geométrica. Mas essa precisão não é acaso: é o balé mecânico dos maiores pivôs de irrigação do mundo, braços monumentais que giram sem parar para abraçar as plantações, levando vida e força para o coração do país.</p>								</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-d57b829 e-con-full e-flex e-con e-child" data-id="d57b829" data-element_type="container" data-e-type="container">
+		<div class="elementor-element elementor-element-1dcdcaa e-con-full e-flex e-con e-child" data-id="1dcdcaa" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+				<div class="elementor-element elementor-element-b8ad4c9 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="b8ad4c9" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+					<h1 class="elementor-heading-title elementor-size-default">Canoa Quebrada</h1>				</div>
+				<div class="elementor-element elementor-element-25a15f0 elementor-widget elementor-widget-text-editor" data-id="25a15f0" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+									<h3>Falésias, a arte esculpida pela natureza</h3>
+<p data-prosemirror-content-type="node" data-prosemirror-node-name="paragraph" data-prosemirror-node-block="true" data-pm-slice="1 1 []">As Falésias de Canoa Quebrada, em Aracati, no Ceará. De longe, a linha do horizonte parece dividida apenas entre o azul do céu e as águas mornas do litoral nordestino. Mas, à medida que nos aproximamos, somos envolvidos por monumentais labirintos alaranjados de terra e pedra que refletem a luz do sol, colorindo a praia com tons que vão do ocre ao vermelho intenso.</p>								</div>
+				</div>
+		<div class="elementor-element elementor-element-9123462 e-con-full e-flex e-con e-child" data-id="9123462" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-95a5682 elementor-widget elementor-widget-image" data-id="95a5682" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+															<img loading="lazy" decoding="async" width="1408" height="768" src="https://projetogol.netlify.app/wp-content/uploads/Canoa-Quebrada.webp" class="attachment-full size-full wp-image-715" alt="Canoa Quebrada Necessaires" srcset="https://projetogol.netlify.app/wp-content/uploads/Canoa-Quebrada.webp 1408w, https://projetogol.netlify.app/wp-content/uploads/Canoa-Quebrada-768x419.webp 768w" sizes="(max-width: 1408px) 100vw, 1408px">															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-902a94c e-con-full e-flex e-con e-child" data-id="902a94c" data-element_type="container" data-e-type="container">
+		<div class="elementor-element elementor-element-1eeedbb e-con-full e-flex e-con e-child" data-id="1eeedbb" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-2bb4533 elementor-widget elementor-widget-image" data-id="2bb4533" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+															<img loading="lazy" decoding="async" width="1408" height="768" src="https://projetogol.netlify.app/wp-content/uploads/Costa-dos-corais.webp" class="attachment-full size-full wp-image-718" alt="Costa dos corais Necessaires" srcset="https://projetogol.netlify.app/wp-content/uploads/Costa-dos-corais.webp 1408w, https://projetogol.netlify.app/wp-content/uploads/Costa-dos-corais-768x419.webp 768w" sizes="(max-width: 1408px) 100vw, 1408px">															</div>
+				</div>
+		<div class="elementor-element elementor-element-755e02d e-con-full e-flex e-con e-child" data-id="755e02d" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+				<div class="elementor-element elementor-element-c49da0e elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="c49da0e" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+					<h1 class="elementor-heading-title elementor-size-default">Costa dos Corais</h1>				</div>
+				<div class="elementor-element elementor-element-befd26d elementor-widget elementor-widget-text-editor" data-id="befd26d" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+									<h3>O quadrante mais lindo do Brasil</h3><p data-prosemirror-content-type="node" data-prosemirror-node-name="paragraph" data-prosemirror-node-block="true" data-pm-slice="1 1 []">Um dos cenários mais paradisíacos do nosso litoral, a Costa dos Corais, estendendo-se entre Alagoas e Pernambuco. À primeira vista, impressiona pelo longo trecho de areia branca e pelo infinito mar turquesa. Mas, quando a maré recua, a verdadeira magnitude do lugar se revela: a maior barreira de corais do país emerge para abraçar o oceano, formando uma vasta rede de piscinas naturais rasas, cristalinas e mornas, repletas de vida marinha.</p>								</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-064a189 e-con-full e-flex e-con e-child" data-id="064a189" data-element_type="container" data-e-type="container">
+		<div class="elementor-element elementor-element-8e13ab7 e-con-full e-flex e-con e-child" data-id="8e13ab7" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+				<div class="elementor-element elementor-element-1731e4e elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="1731e4e" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+					<h1 class="elementor-heading-title elementor-size-default">Delta do Parnaíba</h1>				</div>
+				<div class="elementor-element elementor-element-3f80de5 elementor-widget elementor-widget-text-editor" data-id="3f80de5" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+									<h3>Onde o rio se espalha para o mar</h3><p data-prosemirror-content-type="node" data-prosemirror-node-name="paragraph" data-prosemirror-node-block="true" data-pm-slice="1 1 []">O Delta do Parnaíba, na divisa entre o Piauí e o Maranhão. À primeira vista, parece apenas o curso final de mais um grande rio correndo em direção ao litoral. Mas, ao se aproximar do oceano, suas águas se dividem em dezenas de braços majestosos, formando um arquipélago grandioso de manguezais, dunas claras e ilhas intocadas, em um verdadeiro labirinto natural onde a água doce e a salgada finalmente se encontram.</p>								</div>
+				</div>
+		<div class="elementor-element elementor-element-bfa496c e-con-full e-flex e-con e-child" data-id="bfa496c" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-1d0d9dc elementor-widget elementor-widget-image" data-id="1d0d9dc" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+															<img loading="lazy" decoding="async" width="1408" height="768" src="https://projetogol.netlify.app/wp-content/uploads/Deltas.webp" class="attachment-full size-full wp-image-719" alt="Deltas do Parnaiba Necessaires" srcset="https://projetogol.netlify.app/wp-content/uploads/Deltas.webp 1408w, https://projetogol.netlify.app/wp-content/uploads/Deltas-768x419.webp 768w" sizes="(max-width: 1408px) 100vw, 1408px">															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-53ed133 e-con-full e-flex e-con e-child" data-id="53ed133" data-element_type="container" data-e-type="container">
+		<div class="elementor-element elementor-element-92337eb e-con-full e-flex e-con e-child" data-id="92337eb" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-166790b elementor-widget elementor-widget-image" data-id="166790b" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+															<img loading="lazy" decoding="async" width="1408" height="768" src="https://projetogol.netlify.app/wp-content/uploads/Serra-do-Rio-do-Rastro.webp" class="attachment-full size-full wp-image-723" alt="Serra do Rio do Rastro Necessaires" srcset="https://projetogol.netlify.app/wp-content/uploads/Serra-do-Rio-do-Rastro.webp 1408w, https://projetogol.netlify.app/wp-content/uploads/Serra-do-Rio-do-Rastro-768x419.webp 768w" sizes="(max-width: 1408px) 100vw, 1408px">															</div>
+				</div>
+		<div class="elementor-element elementor-element-d74bd1b e-con-full e-flex e-con e-child" data-id="d74bd1b" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+				<div class="elementor-element elementor-element-263d3c9 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="263d3c9" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+					<h1 class="elementor-heading-title elementor-size-default">Serra do Rio do Rastro</h1>				</div>
+				<div class="elementor-element elementor-element-babffcc elementor-widget elementor-widget-text-editor" data-id="babffcc" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+									<h3>As curvas que escalam o céu</h3><p data-prosemirror-content-type="node" data-prosemirror-node-name="paragraph" data-prosemirror-node-block="true" data-pm-slice="1 1 []">A Serra do Rio do Rastro, em Santa Catarina. À primeira vista, a densa neblina típica da região muitas vezes esconde o que há pela frente. Mas, quando o vento sopra e o tempo se abre, revela-se um caminho monumental: centenas de curvas sinuosas cravadas em paredões de pedra gigantes, rasgando a Mata Atlântica e unindo a montanha ao litoral em um espetáculo de tirar o fôlego.</p>								</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<footer class="elementor-element elementor-element-0ffe1ea e-flex e-con-boxed e-con e-parent" data-id="0ffe1ea" data-element_type="container" data-e-type="container" id="footer">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-a245fce e-con-full e-flex e-con e-child" data-id="a245fce" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-cb4d572 elementor-widget elementor-widget-heading" data-id="cb4d572" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+					<h2 class="elementor-heading-title elementor-size-default">Sobre a Gol</h2>				</div>
+				<div class="elementor-element elementor-element-7284e69 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="7284e69" data-element_type="widget" data-e-type="widget" data-widget_type="icon-list.default">
+							<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="https://www.voegol.com.br/sobre-a-gol/nossa-historia" target="_blank" rel="nofollow">
+
+											<span class="elementor-icon-list-text">Nossa História </span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://www.voegol.com.br/sobre-a-gol/imprensa" target="_blank" rel="nofollow">
+
+											<span class="elementor-icon-list-text">Imprensa</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://www.voegol.com.br/sobre-a-gol/compliance" target="_blank" rel="nofollow">
+
+											<span class="elementor-icon-list-text">Compliance</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://www.voegol.com.br/sobre-a-gol/carreiras" target="_blank" rel="nofollow">
+
+											<span class="elementor-icon-list-text">Carreiras</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://www.voegol.com.br/sobre-a-gol/nossa-frota" target="_blank" rel="nofollow">
+
+											<span class="elementor-icon-list-text">Nossa Frota</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://ri.voegol.com.br/?_gl=1*h32jsg*_gcl_aw*R0NMLjE3NzI3MTg3NDYuQ2owS0NRaUE4S1ROQmhEX0FSSXNBT3ZwNkRJcXVkVlE2WE03VnBOUnJFcmtudnZseU8xdHlkQUlpWmZFYkRKajZRdk5mRV9sd3RrYmlSd2FBamE0RUFMd193Y0I.*_gcl_dc*R0NMLjE3NzI3MTg3NDYuQ2owS0NRaUE4S1ROQmhEX0FSSXNBT3ZwNkRJcXVkVlE2WE03VnBOUnJFcmtudnZseU8xdHlkQUlpWmZFYkRKajZRdk5mRV9sd3RrYmlSd2FBamE0RUFMd193Y0I.*_gcl_au*MTYyMTU1NzM4NS4xNzcyNjUwMjYw" target="_blank" rel="nofollow">
+
+											<span class="elementor-icon-list-text">Investidores</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://www.voegol.com.br/premios-gol" target="_blank" rel="nofollow">
+
+											<span class="elementor-icon-list-text">Prêmios</span>
+											</a>
+									</li>
+						</ul>
+						</div>
+				</div>
+		<div class="elementor-element elementor-element-34a612e e-con-full e-flex e-con e-child" data-id="34a612e" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-9cc2fc5 elementor-widget elementor-widget-heading" data-id="9cc2fc5" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+					<h2 class="elementor-heading-title elementor-size-default">Saiba Mais</h2>				</div>
+				<div class="elementor-element elementor-element-1db4751 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="1db4751" data-element_type="widget" data-e-type="widget" data-widget_type="icon-list.default">
+							<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="https://www.voegol.com.br/agencias/suporte-comercial" target="_blank" rel="nofollow">
+
+											<span class="elementor-icon-list-text">Suporte</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://www.voegol.com.br/informacoes-legais" target="_blank" rel="nofollow">
+
+											<span class="elementor-icon-list-text">Informações Legais</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://www.voegol.com.br/servicos-gol/revista-gol" target="_blank" rel="nofollow">
+
+											<span class="elementor-icon-list-text">Revista Gol</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://www.voegol.com.br/nh/informacoes/formas-de-pagamento" target="_blank" rel="nofollow">
+
+											<span class="elementor-icon-list-text">Formas de Pagamento</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://www.voegol.com.br/informacoes-legais/politica-de-privacidade-e-protecao-de-dados" target="_blank" rel="nofollow">
+
+											<span class="elementor-icon-list-text">Política de Privacidade</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://www.voegol.com.br/politica-de-cookies" target="_blank" rel="nofollow">
+
+											<span class="elementor-icon-list-text">Política Cookies</span>
+											</a>
+									</li>
+						</ul>
+						</div>
+				</div>
+		<div class="elementor-element elementor-element-dbc2c01 e-con-full e-flex e-con e-child" data-id="dbc2c01" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-fbaa757 elementor-widget elementor-widget-heading" data-id="fbaa757" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+					<h2 class="elementor-heading-title elementor-size-default">Serviços</h2>				</div>
+				<div class="elementor-element elementor-element-7a2a4d3 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="7a2a4d3" data-element_type="widget" data-e-type="widget" data-widget_type="icon-list.default">
+							<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="https://www.voegol.com.br/sobre-a-gol/anuncie-na-gol" target="_blank" rel="nofollow">
+
+											<span class="elementor-icon-list-text">Anuncie na Gol</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://www.voegol.com.br/empresas" target="_blank" rel="nofollow">
+
+											<span class="elementor-icon-list-text">Empresas</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://www.voegol.com.br/agencias" target="_blank" rel="nofollow">
+
+											<span class="elementor-icon-list-text">Agências</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://www.voegol.com.br/sobre-a-gol/fornecedores" target="_blank" rel="nofollow">
+
+											<span class="elementor-icon-list-text">Fornecedores</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://www.voegol.com.br/fretamento-e-eventos" target="_blank" rel="nofollow">
+
+											<span class="elementor-icon-list-text">Fretamento e Eventos</span>
+											</a>
+									</li>
+						</ul>
+						</div>
+				</div>
+		<div class="elementor-element elementor-element-a16eebd e-con-full e-flex e-con e-child" data-id="a16eebd" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-9feee46 elementor-widget elementor-widget-heading" data-id="9feee46" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+					<h2 class="elementor-heading-title elementor-size-default">Nossas Marcas</h2>				</div>
+		<div class="elementor-element elementor-element-a5d0b96 e-con-full e-flex e-con e-child" data-id="a5d0b96" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-871724f elementor-widget elementor-widget-image" data-id="871724f" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+																<a href="https://www.voegol.com.br/" target="_blank" rel="nofollow">
+							<img decoding="async" width="50" height="20" src="https://projetogol.netlify.app/wp-content/uploads/2026/03/logo-voegol-new.svg" class="attachment-full size-full wp-image-74" alt="">								</a>
+															</div>
+				<div class="elementor-element elementor-element-3c1ec75 elementor-widget elementor-widget-image" data-id="3c1ec75" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+																<a href="https://www.smiles.com.br/" target="_blank" rel="nofollow">
+							<img loading="lazy" decoding="async" width="61" height="25" src="https://projetogol.netlify.app/wp-content/uploads/2026/03/smiles-png.webp" class="attachment-full size-full wp-image-132" alt="">								</a>
+															</div>
+				<div class="elementor-element elementor-element-2330538 elementor-widget elementor-widget-image" data-id="2330538" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+																<a href="https://www.gollog.com.br/" target="_blank" rel="nofollow">
+							<img loading="lazy" decoding="async" width="99" height="21" src="https://projetogol.netlify.app/wp-content/uploads/2026/03/group-png.avif" class="attachment-full size-full wp-image-133" alt="">								</a>
+															</div>
+				</div>
+				<div class="elementor-element elementor-element-6f99632 elementor-widget elementor-widget-heading" data-id="6f99632" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+					<h2 class="elementor-heading-title elementor-size-default">Aplicativo</h2>				</div>
+		<div class="elementor-element elementor-element-874f09b e-con-full e-flex e-con e-child" data-id="874f09b" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-78d7c9e elementor-widget elementor-widget-image" data-id="78d7c9e" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+																<a href="https://apps.apple.com/br/app/gol-passagens-a%C3%A9reas/id337961662" target="_blank" rel="nofollow">
+							<img loading="lazy" decoding="async" width="97" height="34" src="https://projetogol.netlify.app/wp-content/uploads/2026/03/appstore.svg" class="attachment-full size-full wp-image-134" alt="">								</a>
+															</div>
+				<div class="elementor-element elementor-element-bf2fca5 elementor-widget elementor-widget-image" data-id="bf2fca5" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+																<a href="https://play.google.com/store/apps/details?id=br.com.edeploy.gol.checkin.activities&amp;hl=pt_BR&amp;pli=1" target="_blank" rel="nofollow">
+							<img loading="lazy" decoding="async" width="110" height="34" src="https://projetogol.netlify.app/wp-content/uploads/2026/03/google-play.svg" class="attachment-full size-full wp-image-135" alt="">								</a>
+															</div>
+				</div>
+				<div class="elementor-element elementor-element-64752d4 elementor-widget elementor-widget-heading" data-id="64752d4" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+					<h2 class="elementor-heading-title elementor-size-default">Redes Sociais</h2>				</div>
+				<div class="elementor-element elementor-element-cbd8403 elementor-shape-circle elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons" data-id="cbd8403" data-element_type="widget" data-e-type="widget" data-widget_type="social-icons.default">
+							<div class="elementor-social-icons-wrapper elementor-grid" role="list">
+							<span class="elementor-grid-item" role="listitem">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-f36e050" href="https://www.instagram.com/voegoloficial/" target="_blank" rel="nofollow">
+						<span class="elementor-screen-only">Instagram</span>
+						<svg aria-hidden="true" class="e-font-icon-svg e-fab-instagram" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>					</a>
+				</span>
+							<span class="elementor-grid-item" role="listitem">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin-in elementor-repeater-item-7a3e57a" href="https://www.linkedin.com/company/gol/mycompany/" target="_blank" rel="nofollow">
+						<span class="elementor-screen-only">Linkedin-in</span>
+						<svg aria-hidden="true" class="e-font-icon-svg e-fab-linkedin-in" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg>					</a>
+				</span>
+					</div>
+						</div>
+				<div class="elementor-element elementor-element-6c5b467 elementor-absolute elementor-widget elementor-widget-heading" data-id="6c5b467" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="heading.default">
+					<h2 class="elementor-heading-title elementor-size-default">By <a href="https://secoli.com.br/" class="secoli" target="_blank" rel="nofollow"> Secoli </a></h2>				</div>
+				</div>
+					</div>
+				</footer>
+		<div class="elementor-element elementor-element-5251e0e e-flex e-con-boxed e-con e-parent" data-id="5251e0e" data-element_type="container" data-e-type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-ce56caf elementor-widget elementor-widget-html" data-id="ce56caf" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
+					<script>
+jQuery(document).ready(function($){
+
+    $('.as-slider').each(function(){
+        var $this = $(this); // O Container Pai
+        var $carouselWidget = $this.find('.as-side-slider'); // O Widget do Carrossel
+        
+        var currentSlide = 0;
+        var previousSlide = 0;
+        var slideNumber = $carouselWidget.find('.swiper-slide:not(.swiper-slide-duplicate)').length;
+        var forward = true;
+        var swiperInstance = null;
+        var transitionSpeed = 800; // 0.8s para combinar com CSS
+        
+        // --- 1. MÁGICA DO FUNDO ---
+        var settings = $this.data('settings');
+        if (!settings && $this.attr('data-settings')) {
+            try { settings = JSON.parse($this.attr('data-settings')); } catch(e) {}
+        }
+
+        if (settings && settings.background_slideshow_gallery) {
+            var images = settings.background_slideshow_gallery;
+            var bgHTML = '<div class="as-slider-background">';
+            images.forEach(function(img){ bgHTML += '<img decoding="async" src="' + img.url + '">'; });
+            bgHTML += '</div>';
+            $this.find('.as-slider-background').remove();
+            $this.prepend(bgHTML);
+            $this.find('.as-slider-background img').eq(0).addClass('prev'); 
+        }
+
+        // --- 2. Preparação dos Textos e Dots ---
+        var barHTML = '';
+        var textContainers = $this.find('.as-changing-widget');
+
+        for(var i=0; i<slideNumber; i++){
+            barHTML += `<span class="dot"><span class="dot-number">${i+1}</span></span>`;
+        }
+        $this.find('.as-bar .dot').remove();
+        $this.find('.as-bar').append(barHTML);
+        $this.find('.as-bar .dot').eq(0).addClass('active');
+
+        textContainers.each(function(){
+            var texts = $(this).find('.elementor-widget');
+            if(texts.length > 0) {
+                texts.eq(0).addClass('currentUp');
+                $(this).css('--h', texts.eq(0).outerHeight()+'px');
+            }
+        });
+
+        // --- 3. INICIALIZAÇÃO (A CORREÇÃO DO PULO DURO ESTÁ AQUI) ---
+        setTimeout(function(){
+            // Aplica a classe loaded no Container Pai E no Widget do Carrossel
+            // Isso desativa o "transition-duration: 0s" do seu CSS
+            $this.addClass('loaded'); 
+            $carouselWidget.addClass('loaded'); 
+
+            var swiperContainer = $carouselWidget.find('.swiper-container, .swiper').first()[0];
+            if(swiperContainer && swiperContainer.swiper) {
+                swiperInstance = swiperContainer.swiper;
+                swiperInstance.params.speed = transitionSpeed;
+                swiperInstance.update();
+            }
+        }, 500);
+
+        // --- 4. LOOP DE SINCRONIZAÇÃO ---
+        setInterval(function(){
+            if(!swiperInstance) {
+                var container = $carouselWidget.find('.swiper-container, .swiper').first()[0];
+                if(container && container.swiper) swiperInstance = container.swiper;
+            }
+
+            var $activeSlide = $carouselWidget.find('.swiper-slide-active');
+            if($activeSlide.length === 0) return;
+
+            var rawIndex = $activeSlide.attr('data-swiper-slide-index');
+            var realIndex = (rawIndex !== undefined) ? parseInt(rawIndex) : $activeSlide.index();
+
+            if(realIndex === currentSlide) return;
+
+            if (currentSlide < realIndex) { forward = true; }
+            if (currentSlide > realIndex) { forward = false; }
+            if (currentSlide == slideNumber - 1 && realIndex == 0) { forward = true; }
+            if (currentSlide == 0 && realIndex == slideNumber - 1) { forward = false; }
+
+            previousSlide = currentSlide;
+            currentSlide = realIndex;
+
+            // Atualiza Textos
+            textContainers.each(function(){
+                var $cont = $(this);
+                var texts = $cont.find('.elementor-widget');
+                if(texts.eq(currentSlide).length){
+                    $cont.css('--h', texts.eq(currentSlide).outerHeight()+'px');
+                    texts.removeClass('prev next currentUp currentDown');
+                    if(forward) {
+                        texts.eq(previousSlide).addClass('prev');
+                        texts.eq(currentSlide).addClass('currentUp');
+                    } else {
+                        texts.eq(previousSlide).addClass('next');
+                        texts.eq(currentSlide).addClass('currentDown');
+                    }
+                }
+            });
+
+            // Atualiza Dots e Fundo
+            $this.find('.as-bar .dot').removeClass('active');
+            $this.find('.as-bar .dot').eq(currentSlide).addClass('active');
+
+            var bgs = $this.find('.as-slider-background img');
+            if(bgs.length > 0) {
+                bgs.removeClass('prev next currentBackward currentForward');
+                bgs.eq(previousSlide).addClass('prev');
+                if(forward) {
+                    bgs.eq(currentSlide).addClass('currentForward');
+                } else {
+                    bgs.eq(currentSlide).addClass('currentBackward');
+                }
+            }
+        }, 200);
+
+        // --- 5. CLIQUE INTELIGENTE ---
+        $this.on('click', '.as-side-slider .swiper-slide', function(e){
+            
+            if($(this).hasClass('swiper-slide-active')) return;
+            
+            e.preventDefault(); 
+            e.stopPropagation();
+
+            if(swiperInstance) {
+                // Usa a lógica de "vizinho" para animar na direção certa
+                if ($(this).hasClass('swiper-slide-next') || $(this).hasClass('swiper-slide-next-active')) {
+                    swiperInstance.slideNext(transitionSpeed);
+                } 
+                else if ($(this).hasClass('swiper-slide-prev') || $(this).hasClass('swiper-slide-prev-active')) {
+                    swiperInstance.slidePrev(transitionSpeed);
+                } 
+                else {
+                    var clickedIndex = $(this).attr('data-swiper-slide-index');
+                    if(clickedIndex !== undefined) {
+                        swiperInstance.slideToLoop(parseInt(clickedIndex), transitionSpeed);
+                    }
+                }
+            }
+        });
+
+        // Navegação
+        $this.find('.as-bar .dot').on('click', function(){
+            var idx = $(this).index();
+            if(swiperInstance) swiperInstance.slideToLoop(idx, transitionSpeed);
+        });
+
+        $this.find('.as-slider-left').on('click', function(e){
+            e.preventDefault();
+            if(swiperInstance) swiperInstance.slidePrev(transitionSpeed);
+            else $this.find('.elementor-swiper-button-prev').trigger('click');
+        });
+        
+        $this.find('.as-slider-right').on('click', function(e){
+            e.preventDefault();
+            if(swiperInstance) swiperInstance.slideNext(transitionSpeed);
+            else $this.find('.elementor-swiper-button-next').trigger('click');
+        });
+    });
+
+    $(window).on('resize', function(){
+        $('.as-changing-widget').each(function(){
+            var active = $(this).find('.currentUp, .currentDown').first();
+            if(active.length) $(this).css('--h', active.outerHeight()+'px');
+        });
+    });
+});
+</script>				</div>
+					</div>
+				</div>
+				</div>
+		
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/hello-elementor/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+			<script>
+				const lazyloadRunObserver = () => {
+					const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+					const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+						entries.forEach( ( entry ) => {
+							if ( entry.isIntersecting ) {
+								let lazyloadBackground = entry.target;
+								if( lazyloadBackground ) {
+									lazyloadBackground.classList.add( 'e-lazyloaded' );
+								}
+								lazyloadBackgroundObserver.unobserve( entry.target );
+							}
+						});
+					}, { rootMargin: '200px 0px 200px 0px' } );
+					lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+						lazyloadBackgroundObserver.observe( lazyloadBackground );
+					} );
+				};
+				const events = [
+					'DOMContentLoaded',
+					'elementor/lazyload/observe',
+				];
+				events.forEach( ( event ) => {
+					document.addEventListener( event, lazyloadRunObserver );
+				} );
+			</script>
+			<script src="https://projetogol.netlify.app/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.35.6" id="elementor-webpack-runtime-js"></script>
+<script src="https://projetogol.netlify.app/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.35.6" id="elementor-frontend-modules-js"></script>
+<script src="https://projetogol.netlify.app/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
+<script id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Compartilhar no Facebook","shareOnTwitter":"Compartilhar no Twitter","pinIt":"Fixar","download":"Baixar","downloadImage":"Baixar imagem","fullscreen":"Tela cheia","zoom":"Zoom","share":"Compartilhar","playVideo":"Reproduzir v\u00eddeo","previous":"Anterior","next":"Pr\u00f3ximo","close":"Fechar","a11yCarouselPrevSlideMessage":"Slide anterior","a11yCarouselNextSlideMessage":"Pr\u00f3ximo slide","a11yCarouselFirstSlideMessage":"Este \u00e9 o primeiro slide","a11yCarouselLastSlideMessage":"Este \u00e9 o \u00faltimo slide","a11yCarouselPaginationBulletMessage":"Ir para o slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Dispositivos m\u00f3veis no modo retrato","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Dispositivos m\u00f3veis no modo paisagem","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet no modo retrato","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet no modo paisagem","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Notebook","value":1366,"default_value":1366,"direction":"max","is_enabled":true},"widescreen":{"label":"Tela ampla (widescreen)","value":2400,"default_value":2400,"direction":"min","is_enabled":false}},"hasCustomBreakpoints":true},"version":"3.35.6","is_static":false,"experimentalFeatures":{"e_font_icon_svg":true,"additional_custom_breakpoints":true,"container":true,"e_optimized_markup":true,"theme_builder_v2":true,"hello-theme-header-footer":true,"e_pro_free_trial_popup":true,"nested-elements":true,"home_screen":true,"global_classes_should_enforce_capabilities":true,"e_variables":true,"cloud-library":true,"e_opt_in_v4_page":true,"e_components":true,"e_interactions":true,"e_editor_one":true,"import-export-customization":true,"mega-menu":true,"e_pro_variables":true},"urls":{"assets":"https:\/\/projetogol.netlify.app\/wp-content\/plugins\/elementor\/assets\/","ajaxurl":"https:\/\/projetogol.netlify.app\/wp-admin\/admin-ajax.php","uploadUrl":"https:\/\/projetogol.netlify.app\/wp-content\/uploads"},"nonces":{"floatingButtonsClickTracking":"5c68ca551b"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet","viewport_laptop"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":18,"title":"Projeto%20Gol","excerpt":"","featuredImage":false}};
+//# sourceURL=elementor-frontend-js-before
+</script>
+<script src="https://projetogol.netlify.app/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.35.6" id="elementor-frontend-js"></script>
+<script src="https://projetogol.netlify.app/wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min.js?ver=8.4.5" id="swiper-js"></script>
+<script src="https://projetogol.netlify.app/wp-content/plugins/pro-elements/assets/js/webpack-pro.runtime.min.js?ver=3.35.0" id="elementor-pro-webpack-runtime-js"></script>
+<script src="https://projetogol.netlify.app/wp-includes/js/dist/hooks.min.js?ver=dd5603f07f9220ed27f1" id="wp-hooks-js"></script>
+<script src="https://projetogol.netlify.app/wp-includes/js/dist/i18n.min.js?ver=c26c3dc7bed366793375" id="wp-i18n-js"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+</script>
+<script id="elementor-pro-frontend-js-before">
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/projetogol.netlify.app\/wp-admin\/admin-ajax.php","nonce":"a56fe8d0bc","urls":{"assets":"https:\/\/projetogol.netlify.app\/wp-content\/plugins\/pro-elements\/assets\/","rest":"https:\/\/projetogol.netlify.app\/wp-json\/"},"settings":{"lazy_load_background_images":true},"popup":{"hasPopUps":false},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"},"x-twitter":{"title":"X"},"threads":{"title":"Threads"}},"facebook_sdk":{"lang":"pt_BR","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/projetogol.netlify.app\/wp-content\/plugins\/pro-elements\/modules\/lottie\/assets\/animations\/default.json"}};
+//# sourceURL=elementor-pro-frontend-js-before
+</script>
+<script src="https://projetogol.netlify.app/wp-content/plugins/pro-elements/assets/js/frontend.min.js?ver=3.35.0" id="elementor-pro-frontend-js"></script>
+<script src="https://projetogol.netlify.app/wp-content/plugins/pro-elements/assets/js/elements-handlers.min.js?ver=3.35.0" id="pro-elements-handlers-js"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://projetogol.netlify.app/wp-includes/js/wp-emoji-release.min.js?ver=6.9.1"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(window._wpemojiSettings=a,"wpEmojiSettingsSupports"),s=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const a=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,a){let r;const o=(r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),s=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(e=>{s[e]=t(o,e,n,a)}),s}function r(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}a.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),c.toString(),p.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"});const r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=e=>{i(n=e.data),r.terminate(),t(n)})}catch(e){}i(n=f(s,u,c,p))}t(n)}).then(e=>{for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&a.supports[n]);var t;a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
+//# sourceURL=https://projetogol.netlify.app/wp-includes/js/wp-emoji-loader.min.js
+</script>
+
+</body>
+</html>
